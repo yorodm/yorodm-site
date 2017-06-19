@@ -1,0 +1,40 @@
+baseurl = "http://localhost:8000/"
+languageCode = "en-US"
+title = "/home/yorodm"
+theme = "hugo-sustain"
+PygmentsCodeFences = true
+PygmentsStyle = "xcode"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "logo.jpg"
+  author = "Yoandy Rodriguez Martinez"
+  description = "My takes on software development and life in general"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "yorodm"
+  Twitter       = "yorodm"
+  Stackoverflow = "yorodm"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+# [[menu.main]]
+#   name = "resume"
+#   identifier = "resume"
+#   weight = 300
+#   url = "/resume/"

@@ -1,0 +1,20 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrap">
+      {{ partial "header" . }}
+      <section id="about">
+        <div class="container">
+        <div class="avatar">
+          <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
+        </div>
+        <h3><strong>{{ .Site.Params.author }}</strong></h3>
+        <h3> Desarrollo, escribo y blogueo acerca de software</h3>
+        <h3> Seguidor de Ruby, Python, Java y Clojure</h3>
+        <h3> Consulta mi <a href="{{ .Site.BaseURL }}blog/">blog</a> o mira mis <a href="{{ .Site.BaseURL }}projects/">proyectos personales</a>.</h3>
+        {{ partial "social.html" . }}
+        </div>
+      </section>
+    </div>
+    {{ partial "footer" . }}
+  </body>
+</html>
