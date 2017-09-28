@@ -1,4 +1,4 @@
-baseurl = "http://yorodm.github.io/"
+baseurl = "http://localhost:8808/"
 languageCode = "en-US"
 title = "/home/yorodm"
 theme = "hugo-sustain"
