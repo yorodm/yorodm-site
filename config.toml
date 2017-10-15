@@ -1,4 +1,4 @@
-baseurl = "http://localhost:8808/"
+baseurl = "http://localhost:8000/"
 languageCode = "en-US"
 title = "/home/yorodm"
 theme = "hugo-sustain"
