@@ -4,3 +4,7 @@ source:
     name: cl-rx
     url:  https://github.com/yorodm/cl-rx
     description: Programación Reactiva en Common Lisp
+  - icon: fa fa-github
+    name: hugo-blog-mode
+    url:  https://github.com/yorodm/hugo-blog-mode
+    description: Emacs+Hugo = (♥)
