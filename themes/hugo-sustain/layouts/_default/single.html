@@ -18,7 +18,9 @@
                     {{ .Date.Format "January 2, 2006" }}
                     &nbsp;&nbsp;
                     {{ range .Params.tags }}
-                    <span class="label label-success">{{ . }}</span>
+                    <span class="label">
+                        <a href='{{"/tags/" | relLangURL}}{{ . | urlize }}'>{{ . }}</a>
+                    </span>
                     {{ end }}
                 </h4>
             </div>
