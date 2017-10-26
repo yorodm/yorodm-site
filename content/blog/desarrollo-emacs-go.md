@@ -31,8 +31,8 @@ Despúes de tener `Go` y `Git` instalado, necesitamos un conjunto de herramienta
 3. [Gocode](http://github.com/nsf/gocode ): completamiento
 4. [Gorename](http://golang.org/x/tools/cmd/gorename ): refactorizacíon a cierto
    nivel.
-4. [Gimports](http://golang.org/x/tools/cmd/goimports ): ayuda a adicionar o
-   eliminar paquetes importados (también formatea código).
+4. [Goimports](http://golang.org/x/tools/cmd/goimports ): ayuda a adicionar o
+   eliminar paquetes importados (también hace formato de código).
 
 Estas herramientas por si solas no nos son de mucha utilidad, están diseñadas
 para que cualquier editor de texto que soporte extensiones pueda integrarlas de
