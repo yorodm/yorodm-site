@@ -2,9 +2,7 @@ baseurl = "http://localhost:8000/"
 languageCode = "en-US"
 title = "/home/yorodm"
 theme = "hugo-sustain"
-PygmentsCodeFences = true
-PygmentsStyle = "xcode"
-
+pluralizeListTitles = false
 [permalinks]
   post = "/:year/:month/:day/:slug"
 
