@@ -32,11 +32,7 @@ Despúes de tener `Go` y `Git` instalado, necesitamos un conjunto de herramienta
 4. [Gorename](http://golang.org/x/tools/cmd/gorename ): refactorizacíon a cierto
    nivel.
 4. [Goimports](http://golang.org/x/tools/cmd/goimports ): ayuda a adicionar o
-<<<<<<< Updated upstream
-   eliminar paquetes importados (también hace formato de código).
-=======
-   eliminar paquetes importados (también formatea código).
->>>>>>> Stashed changes
+    eliminar paquetes importados (también formatea código).
 
 Estas herramientas por si solas no nos son de mucha utilidad, están diseñadas
 para que cualquier editor de texto que soporte extensiones pueda integrarlas de
