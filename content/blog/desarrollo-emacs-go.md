@@ -18,12 +18,12 @@ arme la casa a su manera.
 
 ## Haciendo un IDE en tres pasos.
 
-Convertir `Emacs` en un entorno de desarrollo para `Go` es una tarea bastante
+Convertir **Emacs** en un entorno de desarrollo para **Go** es una tarea bastante
 sencilla. Vamos a separarla en tres pasos.
 
 ### Instalar las herramientas necesarias.
 
-Despúes de tener `Go` y `Git` instalado, necesitamos un conjunto de herramientas
+Despúes de tener **Go** y **Git** instalado, necesitamos un conjunto de herramientas
 (oficiales y de terceros) que nos hacen la vida mucho más sencilla.
 
 1. [errcheck](http://github.com/kisielk/errcheck ): verificar errores de compilación.
@@ -43,30 +43,30 @@ un modo sencillo.
 
 En mi lista de paquetes (uso nada más que [Melpa
 estable](http://melpa.org/packages/ )) hay cerca de 15 paquetes que tienen que
-ver con desarrollo en `Go`. En lo personal no necesito mucho para trabajar en un
+ver con desarrollo en **Go**. En lo personal no necesito mucho para trabajar en un
 lenguaje. Las funcionalidades que adiciono son:
 
-1. Lenguaje y completaminto con `go-mode` y `company-go`.
-2. Verificacíon de errores con `go-errcheck`.
-3. Ayuda interactiva con `go-eldoc`.
-4. Refactorización con `go-rename`.
-5. Inspección de código con `go-guru`.
-6. Integración con `projectile` vía `go-projectile`
+1. Lenguaje y completaminto con **go-mode** y **company-go**.
+2. Verificacíon de errores con **go-errcheck**.
+3. Ayuda interactiva con **go-eldoc**.
+4. Refactorización con **go-rename**.
+5. Inspección de código con **go-guru**.
+6. Integración con **projectile** vía **go-projectile**
 
-Todos los paquetes es recomendable instalarlos vía `package-install` con la
-excepción de `company-go` que está incluido en los fuentes de la herramienta
-`gocode` y lo cargo desde ahí para evitar conflictos de versiones.
+Todos los paquetes es recomendable instalarlos vía **package-install** con la
+excepción de **company-go** que está incluido en los fuentes de la herramienta
+**gocode** y lo cargo desde ahí para evitar conflictos de versiones.
 
 ### Paso final.
 
-Con todos los ingredientes estamos a solo 2 minutos de programar en `Go` como
+Con todos los ingredientes estamos a solo 2 minutos de programar en **Go** como
 campiones, solo queda:
 
 1. Añadir `$GOPATH/bin` al `$PATH`
-2. Modificar el `init.el` para personalizar los paquetes de `Emacs`.
+2. Modificar el **init.el** para personalizar los paquetes de **Emacs**.
 
 Lo primero depende del sistema operativo donde estés, pero de todas formas es
-una tarea trivial. Si eres relativamente nuevo en `Emacs` hay grandes
+una tarea trivial. Si eres relativamente nuevo en **Emacs** hay grandes
 posibilidades de que no sepas como hacer lo segundo, no importa, aquí va mi
 configuración (sin atajos de teclado, que ya eso es cosa muy personal).
 
@@ -93,5 +93,5 @@ configuración (sin atajos de teclado, que ya eso es cosa muy personal).
 
 ```
 
-Y...ya está. Hemos creado un `IDE` para trabajar en `Go` sin salir de la
+Y...ya está. Hemos creado un **IDE** para trabajar en **Go** sin salir de la
 comodidad de nuestro editor favorito.

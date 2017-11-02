@@ -7,4 +7,4 @@ source:
   - icon: fa fa-github
     name: hugo-blog-mode
     url:  https://github.com/yorodm/hugo-blog-mode
-    description: Emacs+Hugo = (♥)
+    description: Modo para editar blogs con Emacs y Hugo

@@ -1,38 +1,64 @@
-baseurl = "http://localhost:8000/"
+baseurl = "https://yorodm.gthub.io/"
 languageCode = "en-US"
 title = "/home/yorodm"
-theme = "hugo-sustain"
+theme = "hugo-theme-cactus-plus"
 pluralizeListTitles = false
-[permalinks]
-  post = "/:year/:month/:day/:slug"
-
 [params]
-  avatar = "logo.jpg"
-  author = "Yoandy Rodriguez Martinez"
-  description = "My takes on software development and life in general"
+    enableRss = true
+    name = "Yoandy Rodríguez Martínez"
+    description = "Software, la vida y todo lo demás"
+    bio = "Desarrollador, bloguero, amante de la música"
+    # Enter optionally your twitter account
+    twitter = "yorodm"
+    enableRSS = true
 
-  # Custom assets can be linked with their paths relative to static/
-  custom_css = []
-  custom_js  = []
+    # Disqus comment
+    disqusShortname = "your_disqus_short_name"
+    # Disable disqus comments by set `enableDisqus = "false"`
+    enableDisqus = false
 
-[params.social]
-  Github        = "yorodm"
-  Twitter       = "yorodm"
-  Stackoverflow = "yorodm"
+    # Duoshuo comment
+    duoshuoShortname = "your_duoshuo_short_name"
+    # Disable duoshuo comments by set `enableDuoshuo = "false"`
+    enableDuoshuo = false
 
-## Main Menu
-[[menu.main]]
-  name = "blog"
-  weight = 100
-  identifier = "blog"
-  url = "/blog/"
-[[menu.main]]
-  name = "projects"
-  identifier = "projects"
-  weight = 200
-  url = "/projects/"
-# [[menu.main]]
-#   name = "resume"
-#   identifier = "resume"
-#   weight = 300
-#   url = "/resume/"
+    enableGithubIssuesTips = false
+
+    # Enable googleAnalytics
+    enableGoogleAnalytics = false
+
+    # Enable baiduAnalytics
+    enableBaiduAnalytics = false
+    # Baidu Tongji Code
+    baiduAnalytics = 'your_baidu_tongji_code'
+
+    # Add custom assets with their paths relative to the static folder
+    customCSS = []
+    customJS  = []
+
+    # The variables below are optionally too and can be used to
+    # translate or customize each string of the theme.
+
+    # Navigation links
+    archive = "archivo"
+    about = "acerca de"
+    tags = "etiquetas"
+    home = "inicio"
+    # Pagination links
+    olderPosts = ""
+    newerPosts = ""
+    readMore = "más ..."
+    # Sharing options and author information in posts
+    aboutAuthor = "I am so interesting."
+    tweet = ""
+    share = ""
+
+
+    # Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+    iconFont = "font-awesome"
+  # Add additional social link entries underneath
+
+[social]
+  twitter = "http://twitter.com/yorodm"
+  github = "http://github.com/yorodm"
+  stack-overflow = "http://stackoverflow.com/yorodm"
