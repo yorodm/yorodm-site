@@ -70,7 +70,7 @@ una tarea trivial. Si eres relativamente nuevo en **Emacs** hay grandes
 posibilidades de que no sepas como hacer lo segundo, no importa, aquí va mi
 configuración (sin atajos de teclado, que ya eso es cosa muy personal).
 
-```
+```emacs-lisp
 ;; Si estás utilizando correctamente tu gestor de paquetes en Emacs
 ;; no tienes que adicionar las lineas de los  'require'
 ;; Adicionar el backend de Go a company
