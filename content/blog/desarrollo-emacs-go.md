@@ -41,9 +41,9 @@ un modo sencillo.
 
 ### El lado de Emacs
 
-En mi lista de paquetes (uso nada más que [Melpa
-estable](http://melpa.org/packages/ )) hay cerca de 15 paquetes que tienen que
-ver con desarrollo en **Go**. En lo personal no necesito mucho para trabajar en un
+En mi lista de paquetes (uso nada más que [Melpa estable]
+(http://melpa.org/packages/ )) hay cerca de 15 paquetes que tienen que ver con
+desarrollo en **Go**. En lo personal no necesito mucho para trabajar en un
 lenguaje. Las funcionalidades que adiciono son:
 
 1. Lenguaje y completaminto con **go-mode** y **company-go**.
@@ -53,9 +53,7 @@ lenguaje. Las funcionalidades que adiciono son:
 5. Inspección de código con **go-guru**.
 6. Integración con **projectile** vía **go-projectile**
 
-Todos los paquetes es recomendable instalarlos vía **package-install** con la
-excepción de **company-go** que está incluido en los fuentes de la herramienta
-**gocode** y lo cargo desde ahí para evitar conflictos de versiones.
+Todos los paquetes es recomendable instalarlos vía **package-install** con la excepción de **company-go** que está incluido en los fuentes de la herramienta **gocode** y lo cargo desde ahí para evitar conflictos de versiones.
 
 ### Paso final.
 
@@ -71,7 +69,7 @@ posibilidades de que no sepas como hacer lo segundo, no importa, aquí va mi
 configuración (sin atajos de teclado, que ya eso es cosa muy personal).
 
 ```emacs-lisp
-;; Si estás utilizando correctamente tu gestor de paquetes en Emacs
+;; Si estás utilizando correctamente tu gestor de paquetes
 ;; no tienes que adicionar las lineas de los  'require'
 ;; Adicionar el backend de Go a company
 (require 'company)
@@ -82,14 +80,15 @@ configuración (sin atajos de teclado, que ya eso es cosa muy personal).
 (require 'go-guru)
 (require 'go-errcheck)
 (require 'go-projectile)
-;; Añadimos un hook para que cuando se active el modo se configuren todas
-;; estas cosas
-(add-hook 'go-mode-hook (lambda ()
-                         (company-mode)
-                         (projectile-mode)
-                         (go-eldoc-setup)
-                         (add-hook 'before-save-hook 'gofmt-before-save)
-                         (setq gofmt-command "goimports")))
+;; Añadimos un hook para que cuando se active el modo
+;; se configuren todas estas cosas
+(add-hook 'go-mode-hook
+    (lambda ()
+        (company-mode)
+        (projectile-mode)
+        (go-eldoc-setup)
+        (add-hook 'before-save-hook 'gofmt-before-save)
+        (setq gofmt-command "goimports")))
 
 ```
 
