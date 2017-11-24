@@ -1,6 +1,6 @@
 +++
 categories = ["devops"]
-date = "2017-11-02"
+date = "2017-11-24"
 description = "Comparativa entre Proxmox y Docker"
 tags = ["docker","proxmox","linux","archlinux"]
 title = "Proxmox a Docker"
@@ -100,3 +100,5 @@ Ahora, tanta simplicidad no viene sin un costo:
    cantidad de imágenes que mantengas).
 
 ## Resumiendo.
+
+Ningún proceso de migración es sencillo, pero si eres usuario de **Proxmox** y estás buscando pasarte a **Docker** debes prepararte para una buena pelea

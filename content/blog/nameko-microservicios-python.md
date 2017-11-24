@@ -101,11 +101,11 @@ BROKER ='pyamqp://guest:guest@192.168.184.142'
 
 # Todas las cosas del modelo....
     @api.multi
-        def action_suma(self):
-            val1 = self.campo_1
-            val2 = self.campo_2
-            with ClusterRpcProxy(BROKER) as rpc:
-                self.val3 = rpc.compute.method(val1,val2)
+    def action_suma(self):
+        val1 = self.campo_1
+        val2 = self.campo_2
+        with ClusterRpcProxy(BROKER) as rpc:
+            self.val3 = rpc.compute.method(val1,val2)
 ```
 
 Gracias a que **RabbitMQ** actúa como *broker* y registro de los servicios,
@@ -113,7 +113,7 @@ podemos desplegar tantos como queramos, el consumidor no necesita saber donde
 están localizados, ni cuantos son, como un plus, los servicios se pueden añadir
 dinámicamente a al *cluster*
 
-## Adicionanco un hearbeat.
+## Adicionando un hearbeat.
 
 Nuestros servicios funcionan, es hora de desplegarlos en producción, pero el
 sysadmin se queja de que no tiene forma de monitorear el estado de los mismos.
