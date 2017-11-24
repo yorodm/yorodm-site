@@ -1,4 +1,4 @@
-baseurl = "https://yorodm.gthub.io/"
+baseurl = "https://yorodm.github.io/"
 languageCode = "en-US"
 title = "/home/yorodm"
 theme = "hugo-theme-cactus-plus"
