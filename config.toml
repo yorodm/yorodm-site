@@ -15,9 +15,9 @@ pygmentsUseClasses=true
     enableRSS = true
 
     # Disqus comment
-    disqusShortname = "your_disqus_short_name"
+    disqusShortname = "home-yorodm"
     # Disable disqus comments by set `enableDisqus = "false"`
-    enableDisqus = false
+    enableDisqus = true
 
     # Duoshuo comment
     duoshuoShortname = "your_duoshuo_short_name"
