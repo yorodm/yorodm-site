@@ -1,6 +1,6 @@
 +++
 categories = ["devops"]
-date = "2017-11-24"
+date = "2017-11-29"
 description = "Comparativa entre Proxmox y Docker"
 tags = ["docker","proxmox","linux","archlinux"]
 title = "Proxmox a Docker"
@@ -22,7 +22,8 @@ y sopesar los pro y los contra se me ocurrió este post. Ahí va.
 Antes de empezar vamos a dejar algo claro: no hay manera de migrar las máquinas
 virtuales a **docker**. Aunque a algunas personas esto les parece obvio (VM !=
 container) he encontrado sysadmins que oyen *virtualización* y ya no escuchan
-más nada. Si bien la versión de docker para [ese sistema operativo](http://www.microsoft.com) tiene posibilidades de virtualización real
+más nada. Si bien la versión de docker para [ese sistema
+operativo](http://www.microsoft.com) tiene posibilidades de virtualización real
 gracias a que utiliza **Hyper-V** para ejecutar los contenedores, la idea es tan
 cercana al sacrilégio que la vamos a descartar enseguida. Resumiendo, máquinas
 virtuales no.
@@ -95,10 +96,12 @@ Ahora, tanta simplicidad no viene sin un costo:
    red (**docker-composer** ayuda mucho).
 3. Backups, almacenamiento compartido, parámetros de ejecución del contenedor;
    toca hacerlos manualmente (igual que arriba).
-4. Es recomentable tener un registro privado. Eso lleva a montarse otro servidor
-   o tener un contenedor dedicado, es decir, gastar recursos (depende de la
-   cantidad de imágenes que mantengas).
+4. Es recomentable tener un registro privado (especialmente si tienes mala
+   conexión). Eso lleva a montarse otro servidor o tener un contenedor dedicado,
+   es decir, gastar recursos.
+5. Como dije
 
 ## Resumiendo.
 
-Ningún proceso de migración es sencillo, pero si eres usuario de **Proxmox** y estás buscando pasarte a **Docker** debes prepararte para una buena pelea
+Ningún proceso de migración es sencillo, pero si eres usuario de **Proxmox** y
+estás buscando pasarte a **Docker** debes prepararte para una buena pelea
