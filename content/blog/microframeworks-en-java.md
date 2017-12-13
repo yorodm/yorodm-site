@@ -38,7 +38,7 @@ Aparte del *core* del framework, existen componentes para:
 ## [Bootique](http://bootique.io )
 
 **Bootique** nos invita a crear aplicaciones modulares utilizando **Guice**. A
-diferencia de **Ratpac**, su estilo de programación es mas de utilizar
+diferencia de **Ratpack**, su estilo de programación es mas de utilizar
 anotaciones aunque también hace uso de interfaces fluidas y clausuras. El uso de
 **Guice** le da también un sabor particular a la forma en que creamos
 aplicaciones o extendemos el framework. En fin, esta es la lista de

@@ -52,6 +52,7 @@ class Compute(object):
 class Notify(object):
     name ="notify"
     logger = logging.getLogger(__name__)
+
     @rpc
     def send(self,message):
         self.logger.info(message)

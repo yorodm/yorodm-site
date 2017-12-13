@@ -96,7 +96,7 @@ func parse(document io.Reader, elm chan<- xml.Token) {
 
 Esta versión no solo es mucho más corta sino que además utilizamos una
 *gorutina* para procesar el **XML** y un canal para la comunicación entre el
-productor y el consumidor de los eventos. El productor puede elegir que eventos
+productor y el consumidor de los eventos. El consumidor puede elegir que eventos
 le resultan interesantes y descartar el resto
 
 Veamos un ejemplo:
