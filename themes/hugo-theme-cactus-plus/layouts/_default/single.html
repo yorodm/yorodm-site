@@ -30,26 +30,12 @@
                     </div>
                   {{ end }}
                 {{ end }}
-                <section id="post-body">
-                    {{ .Content }}
-                </section>
+                    <section id="post-body">
+                        {{ .Content }}
+                    </section>
             </article>
 
-            {{ if .Site.Params.enableGithubIssuesTips }}
-                {{ partial "github-issues-tip.html" . }}
-            {{ end }}
-
-            {{ if .Site.Params.enableDisqus }}
-                {{ if eq .Params.disabledisqus "true" }}
-                    {{ partial "disqus.html" . }}
-                {{ end }}
-            {{ end }}
-
-            {{ if .Site.Params.enableDuoshuo }}
-                {{ if eq .Params.disableduoshuo "true" }}
-                    {{ partial "duoshuo.html" . }}
-                {{ end }}
-            {{ end }}
+            {{ template "_internal/disqus.html" . }}
 
             {{ partial "footer.html" . }}
         </section>

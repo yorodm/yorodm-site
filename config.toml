@@ -5,6 +5,8 @@ theme = "hugo-theme-cactus-plus"
 pluralizeListTitles = false
 pygmentsCodeFences=true
 pygmentsUseClasses=true
+disqusShortname = "home-yorodm"
+enableDisqus = true
 [params]
     enableRss = true
     name = "Yoandy Rodríguez Martínez"
