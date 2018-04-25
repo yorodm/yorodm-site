@@ -1,13 +1,10 @@
 +++
-title = "Acciones automáticas en Odoo"
-date = 2017-12-19T21:34:22-05:00
-tags = ["python","odoo"]
+title = "Acciones Automáticas en Odoo"
+date = 2018-04-22T13:26:34-04:00
+tags = ["python", "odoo"]
 categories = [""]
 draft = true
-description = "Entendiendo ir.cron y base.action.rule"
+description = "Trabajando con ir.con y base.action_rule"
 +++
 
-# Acciones automáticas en Odoo.
-
-**Odoo** permite a los desarrolladores la posibilidad de ejecutar acciones
-automáticas
+# Acciones automáticas en Odoo
