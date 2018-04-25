@@ -10,10 +10,10 @@ description = "Ebook gratis sobre Ruby On Rails"
 # Libro: Ruby on Rails for Professionals
 
 Un excelente libro producto del trabajo y conocimiento de cientos de usuarios de
-[Stack Overflow](www.stackoverflow.com). Como tantos otros libros disponibles en
-[GoalKicker](goalkicker.com ) este es gratis, bajo licencia Creative Commons
+[Stack Overflow](http://www.stackoverflow.com). Como tantos otros libros disponibles en
+[GoalKicker](http://goalkicker.com ) este es gratis, bajo licencia Creative Commons
 BY-SA y una de las cosas que debes leer si trabajas o estás interesado en
-aprender [Ruby On Rails](rubyonrails.org)
+aprender [Ruby On Rails](http://rubyonrails.org)
 
 El libro cuenta con 72 capítulos (más bien pequeñas recetas) que cubren desde la
 instalación y arranque de un nuevo proyecto hasta el despliegue utilizando
