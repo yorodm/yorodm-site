@@ -4,6 +4,7 @@ date = 2018-04-25T11:37:30-04:00
 tags = ["libros","ruby","rails"]
 categories = [""]
 draft = false
+description = "Ebook gratis sobre Ruby On Rails"
 +++
 
 # Libro: Ruby on Rails for Professionals
