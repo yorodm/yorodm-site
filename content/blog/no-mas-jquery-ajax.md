@@ -14,5 +14,5 @@ description = "Migra tu código hacia Fetch API o Axios"
 > han obtenido todo el reconocimiento que merecen por su excelente trabajo.
 
 Si tus tareas incluyen desarrollar extensiones y/o temas para **Drupal**,
-**Wordpress**, **Shopify** y **Odoo** entonces estás menos interesado en
+**Wordpress**, **Shopify** u **Odoo** entonces estás menos interesado en
 **React** y **Vue** que en **Bootstrap** y **jQuery**.
