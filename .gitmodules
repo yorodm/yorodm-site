@@ -1,4 +1,4 @@
 [submodule "public"]
-	path = public
-	url = https://github.com/yorodm/yorodm.github.io.git
-	branch = master
+    path = public
+    url = https://github.com/yorodm/yorodm.github.io.git
+    branch = master
