@@ -41,8 +41,6 @@ def main(arguments):
 if __name__ == '__main__':
     arguments = docopt(__doc__)
     main(arguments)
-
-"""
 ```
 
 Al invocar la herramienta sin parámetros obtenemos el siguiente mensaje de ayuda:
