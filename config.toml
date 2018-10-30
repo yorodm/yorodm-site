@@ -11,7 +11,7 @@ enableDisqus = true
     enableRss = true
     name = "Yoandy Rodríguez Martínez"
     description = "Software, la vida y todo lo demás"
-    bio = "Desarrollador, bloguero, amante de la música"
+    bio = "Entusiasta del software libre. Pythonista dedicado. Guitarrista amateur"
     # Enter optionally your twitter account
     twitter = "yorodm"
     enableRSS = true
@@ -53,7 +53,6 @@ enableDisqus = true
     newerPosts = ""
     readMore = "más ..."
     # Sharing options and author information in posts
-    aboutAuthor = "I am so interesting."
     tweet = ""
     share = ""
 
