@@ -4,7 +4,7 @@ date = 2018-11-20T17:28:59-05:00
 tags = ["emacs","scrapper"]
 categories = [""]
 draft = false
-description = "Construyendo un web "
+description = "Construyendo un web scrapper en Emacs Lisp"
 +++
 
 # Scrapper para DEV desde Emacs.
