@@ -35,7 +35,7 @@ class C:
         del self._x
         request.delete('http://mydata.com/x')
 
-    x = property(getx, setx, delx, "Proxy x como proxy a servicio REST.")
+    x = property(getx, setx, delx, "x como proxy a servicio REST.")
 ```
 
 ### staticmethod
