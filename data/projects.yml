@@ -8,3 +8,7 @@ source:
     name: hugo-blog-mode
     url:  https://github.com/yorodm/hugo-blog-mode
     description: Modo para editar blogs con Emacs y Hugo
+  - icon: fa fa-github
+    name: kenobi
+    url:  https://github.com/yorodm/kenobi
+    description: Python Language Server to help those in need
