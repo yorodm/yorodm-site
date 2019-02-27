@@ -44,7 +44,7 @@ class Person(object):
 
     @property
     def fullname(self):
-        return self.firstname + " " self.fullname
+        return self.firstname + " " self.lastname
 
 class PersonFactory(factory.Factory):
     """

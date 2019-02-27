@@ -65,3 +65,16 @@ enableDisqus = true
   twitter = "http://twitter.com/yorodm"
   github = "http://github.com/yorodm"
   stack-overflow = "http://stackoverflow.com/yorodm"
+
+[related]
+  threshold = 80
+  includeNewer = false
+  toLower = false
+
+  [[related.indices]]
+    name ="series"
+    wight = 100
+
+  [[related.indices]]
+    name = "date"
+    wight = 100
