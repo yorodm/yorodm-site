@@ -1,9 +1,8 @@
 +++
 title = "Plumber: ETL simple para Python"
 date = 2019-03-12T10:14:20-04:00
-tags = [""]
+tags = ["python","etl"]
 categories = [""]
-draft = true
 description = "Hacer tuberías ETL nunca fue menos complicado"
 +++
 
