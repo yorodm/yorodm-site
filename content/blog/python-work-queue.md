@@ -55,7 +55,7 @@ En **Go** la operación `close` sobre un canal hace que el ciclo
 termine **después de procesar cualquier elemento pendiente**. En
 **Python** a primera vista podemos cancelar la tarea creada en
 `worker_task` pero eso nos deja con la posibilidad de que varias
-tareas se queden en la cola. Por otro lado, la corutina `join()` the
+tareas se queden en la cola. Por otro lado, la corutina `join()` de
 `asyncio.Queue` nos permite esperar a que ya no existan elementos en
 la cola, aunque no garantiza que `worker` se detenga.
 
