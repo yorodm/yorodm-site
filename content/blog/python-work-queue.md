@@ -39,6 +39,7 @@ import asyncio
 async def worker(queue):
     while True:
 		process(await queue.get())
+		# Indicamos que se procesó el trabajo
 		queue.task_done()
 
 # Creamos la cola de mensajes
