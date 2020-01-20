@@ -7,7 +7,7 @@ draft = false
 description = "Herramienta sencilla para DevOps y desarrolladores"
 +++
 
-`awstail` es una herramienta muy simple que cumple dos funciones:
+[awstail](https://github.com/yorodm/awstail) es una herramienta muy simple que cumple dos funciones:
 
 1. Darme la excusa para aprender **Rust**.
 2. Monitorear un grupo de logs en `AWS Cloudwatch` desde la terminal.
