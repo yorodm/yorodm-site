@@ -22,19 +22,27 @@ mucho mejor de la siguiente forma
 
 ```python3
 # Para tareas que bloquean o usan mucho CPU
+def process(data, queue):
+	# trabajar con data
+	do_something_cpu_expensive(data)
+	# Indicar que terminamos
+	queue.task_done()
+
 async def dispatcher(queue):
 	loop = asyncio.get_running_loop()
 	while True:
-		data = await queue.get()
-		loop.run_in_executor(None, process, data)
+		loop.run_in_executor(None, process,data, queue)
 
 # Para tareas que pueden usar asyncio
+async def process(queue)
+	data = await queue.get()
+	await do_something_async(data)
+	queue.task_done()
+
 async def dispatcher(queue):
 	while True:
-		data = await queue.get()
-		asyncio.create_task(process(data))
+		asyncio.create_task(process(queue))
 ```
-
 Ahora tenemos varias tareas ejecutándose de modo concurrente.
 
 ## Trabajando con recursos limitados.
