@@ -4,6 +4,7 @@ date = 2020-03-06T15:06:47-05:00
 tags = ["dotnet core", "microservices", "hostbuilder"]
 categories = [""]
 draft = false
+description= "Microservicios desde aplicaciones de consola"
 +++
 
 La nueva versión LTS de .NET Core trae consigo muchas ventajas para el
