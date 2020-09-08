@@ -18,6 +18,8 @@ mayor parte de los casos un firewall para usuario se basa en
 permitir/denegar que ciertas aplicaciones hagan uso de la red, o
 "denegar que el navegador se conecte en este momento". Esto puede
 parecer trivial a simple vista, pero la mayoría de las herramientas
+carecen de este tipo de dinamismo y están centradas en hacer reglas de
+tipo más permanente
 
 ## Filtrado de paquetes en Linux.
 
