@@ -21,7 +21,7 @@ pygmentsUseClasses=true
   url = "blog/"
 
 [related]
-  includeNewer = false
+  includeNewer = true
   threshold = 80
   toLower = false
 
