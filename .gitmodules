@@ -2,3 +2,6 @@
     path = public
     url = https://github.com/yorodm/yorodm.github.io.git
     branch = master
+[submodule "themes/hugo-theme-console"]
+	path = themes/hugo-theme-console
+	url = https://github.com/mrmierzejewski/hugo-theme-console.git

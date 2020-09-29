@@ -1,94 +1,34 @@
 baseurl = "https://yorodm.github.io/"
 languageCode = "en-US"
 title = "/home/yorodm"
-theme = "hugo-theme-cactus-plus"
+theme = "hugo-theme-console"
 pluralizeListTitles = false
 pygmentsCodeFences=true
 pygmentsUseClasses=true
-disqusShortname = "home-yorodm"
-enableDisqus = true
 [params]
-    enableRss = true
-    name = "Yoandy Rodríguez Martínez"
-    description = "Software, la vida y todo lo demás"
-    bio = "Entusiasta del software libre. Pythonista dedicado. Guitarrista amateur"
-    # Enter optionally your twitter account
-    twitter = "yorodm"
-    enableRSS = true
 
-    # Disqus comment
-    disqusShortname = "home-yorodm"
-    # Disable disqus comments by set `enableDisqus = "false"`
-    enableDisqus = true
-
-    # Duoshuo comment
-    duoshuoShortname = "your_duoshuo_short_name"
-    # Disable duoshuo comments by set `enableDuoshuo = "false"`
-    enableDuoshuo = false
-
-    enableGithubIssuesTips = false
-
-    # Enable googleAnalytics
-    enableGoogleAnalytics = false
-
-    # Enable baiduAnalytics
-    enableBaiduAnalytics = false
-    # Baidu Tongji Code
-    baiduAnalytics = 'your_baidu_tongji_code'
-
-    # Add custom assets with their paths relative to the static folder
-    customCSS = []
-    customJS  = []
-
-    # The variables below are optionally too and can be used to
-    # translate or customize each string of the theme.
-
-    # Navigation links
-    archive = "archivo"
-    about = "acerca de"
-    tags = "etiquetas"
-    home = "inicio"
-    # Pagination links
-    olderPosts = ""
-    newerPosts = ""
-    readMore = "más ..."
-    # Sharing options and author information in posts
-    tweet = ""
-    share = ""
-
-
-    # Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-    iconFont = "font-awesome"
-  # Add additional social link entries underneath
-
-[social]
-  twitter = "http://twitter.com/yorodm"
-  github = "http://github.com/yorodm"
-  stack-overflow = "http://stackoverflow.com/yorodm"
+  [[params.social]]
+    name = "Twitter"
+    url = "http://twitter.com/yorodm"
+  [[params.social]]
+    name = "GitHub"
+    url = "http://github.com/yorodm"
+  [[params.navlinks]]
+    name = "about/"
+    url = "about/"
+  [[params.navlinks]]
+  name = "blog/"
+  url = "blog/"
 
 [related]
-  threshold = 80
   includeNewer = false
+  threshold = 80
   toLower = false
 
   [[related.indices]]
-    name ="series"
-    wight = 100
+    name = "keywords"
+    weight = 100
 
   [[related.indices]]
-    name = "date"
-    wight = 100
-
-[privacy]
-  [privacy.disqus]
-    disable = true
-  [privacy.googleAnalytics]
-    disable = true
-  [privacy.instagram]
-    disable = true
-  [privacy.twitter]
-    disable = true
-  [privacy.vimeo]
-    disable = true
-  [privacy.youtube]
-    disable = true
+    name = "series"
+    weight = 100
