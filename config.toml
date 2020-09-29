@@ -1,7 +1,7 @@
 baseurl = "https://yorodm.github.io/"
 languageCode = "en-US"
 title = "/home/yorodm"
-theme = "hugo-theme-console"
+theme = "console"
 pluralizeListTitles = false
 pygmentsCodeFences=true
 pygmentsUseClasses=true
