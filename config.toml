@@ -26,7 +26,7 @@ pygmentsUseClasses=true
   toLower = false
 
   [[related.indices]]
-    name = "keywords"
+    name = "tags"
     weight = 100
 
   [[related.indices]]

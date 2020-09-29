@@ -6,4 +6,13 @@
 <br/><br/>
 {{ .Content }}
 {{ template "_internal/disqus.html" . }}
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<h3>Artículos relacionados</h3>
+<ul>
+  {{ range . }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}
 {{ end }}
