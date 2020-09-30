@@ -3,7 +3,15 @@
 
 <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.meses (printf "%d" .Date.Month) }} {{ .Date.Year }}
 </time>
-<p>Tags: {{ delimit (.GetTerms "tags")  ", " }}</p>
+{{ $taxo := "tags" }} <!-- Use the plural form here -->
+{{ with .Param $taxo }}
+  {{ range $index, $director := . }}
+    {{- if gt $index 0 }}, {{ end -}}
+     {{ with $.Site.GetPage (printf "/%s/%s" $taxo $director) -}}
+      <a href="{{ .Permalink }}">{{ $director }}</a>
+     {{- end -}}
+    {{- end -}}
+{{ end }}
 <br/><br/>
 {{ .Content }}
 {{ template "_internal/disqus.html" . }}

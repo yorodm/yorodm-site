@@ -1,6 +1,6 @@
 +++
 title = "Mejorando los scrapers con aiohttp"
-date = 2019-03-06T14:20:47-05:00
+date = 2020-09-29T23:44:06-04:00
 tags = ["python","scraper","asyncio","aiohttp"]
 categories = [""]
 draft = true
