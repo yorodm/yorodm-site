@@ -33,7 +33,7 @@ Con esto en mente podemos crear el esqueleto de las funciones
 (defun hugo-blow-new (path)
 	"Create new content in PATH.")
 (defun hugo-blog-publish ()
-	"Launches a preview HTTP server. If ARG is provided also render drafts.")
+	"Generate the site and commit everything.")
 (defun hugo-blog-preview (arg)
 	"Launches a preview HTTP server. If ARG is provided also render drafts.")
 
