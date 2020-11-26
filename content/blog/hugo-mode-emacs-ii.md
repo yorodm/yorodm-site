@@ -11,7 +11,7 @@ unos cuantos meses ya) estuve hablando sobre como comencé
 automatizando el flujo de publicación del blog usando scripts. En este
 les mostraré como llevamos esos scripts a un modo de **Emacs**.
 
-## Adicionando la funcionalida a Emacs
+## Manos al Emacs.
 
 Una de las ventajas de Emacs es su extensibilidad, con un poco de
 código **Elisp** podemos adicionar nuevas funcionalidades al editor.
