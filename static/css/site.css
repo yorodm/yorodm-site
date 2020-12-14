@@ -5,3 +5,18 @@
 p  {
 	text-align: justify;
 }
+
+h2 {
+  display: inline-block;
+  position: relative;
+}
+h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 5px;
+}
