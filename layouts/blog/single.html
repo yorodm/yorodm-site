@@ -8,10 +8,11 @@
   {{ range $index, $director := . }}
     {{- if gt $index 0 }}, {{ end -}}
      {{ with $.Site.GetPage (printf "/%s/%s" $taxo $director) -}}
-      <a href="{{ .Permalink }}">{{ $director }}</a>
-     {{- end -}}
-    {{- end -}}
+<a href="{{ .Permalink }}">{{ $director }}</a>
+{{- end -}}
+{{- end -}}
 {{ end }}
+{{ math.Round (div (countwords .Content) 220.0) }} minuto(s) de lectura.
 <br/><br/>
 {{ .Content }}
 {{ template "_internal/disqus.html" . }}
