@@ -188,18 +188,18 @@ Y crear una nueva para cuando algún `Step` falla.
 struct ErrStep;
 
 impl Step for ErrStep {
-	type Item = u8;
+    type Item = u8;
 
-	fn run(&self, it:u8) -> StepResult<u8> {
-	   Err("This will fail")?
-	}
+    fn run(&self, it:u8) -> StepResult<u8> {
+       Err("This will fail")?
+    }
 }
 
 fn test_pipeline_ok() {
     let mut p = Pipeline::<u8>::new();
     p.add(Multiplier { value: 2 });
     p.add(ErrStep{});
-	assert!(p.run(10).is_err());
+    assert!(p.run(10).is_err());
 }
 ```
 
