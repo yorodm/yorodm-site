@@ -6,8 +6,8 @@ tags: ["rust","patrones"]
 ---
 
 **Pipeline** es un patrón de diseño muy útil cuando tienes datos que
-deben ser procesados en una secuencia de etapas, donde cada etapa toma
-como entrada la salida de la etapa anterior. En cierta manera un
+deben ser procesados en una secuencia de etapas donde cada etapa toma
+como entrada la salida de la anterior. En cierta manera un
 pipeline es similar a *componer funciones* pero el nivel de
 complejidad es mucho más elevado debido a factores como *backpressure*,
 *deadlocks* o cancelación.
@@ -72,7 +72,7 @@ println!("Multiplicado por 2 {0}", by2.run(5)) // 10
 
 Ahora solo tenemos que encadenar los pasos para formar un pipeline.
 Ya que tenemos un número variable de pasos y todos implementan el
-mismo `trait`, podemos guardarlos en un vector de `trait object`
+mismo `trait`, podemos guardarlos en un vector de *trait objects*
 
 ```rust
 pub struct Pipeline<T> {
