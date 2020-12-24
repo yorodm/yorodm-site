@@ -232,7 +232,7 @@ no ser necesarios para una implementación secuencial.
 
 Con todos los puntos del plan cumplidos, me retiro hasta la próxima
 aventura. Mientras tanto si estás interesado en el tema de *pipelines*
-en **Rust** les recomiendo mirar
+en **Rust** recomiendo mirar
 [pipelines](https://crates.io/crates/pipelines) o
 [rayon](https://crates.io/crates/rayon), ambas con implementaciones
 muy interesantes.
