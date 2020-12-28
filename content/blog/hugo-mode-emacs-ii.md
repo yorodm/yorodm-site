@@ -1,10 +1,7 @@
-+++
-title = "Emacs + Hugo: Haciendo `hugo-blog-mode`  (II)"
-date = 2020-10-06T17:45:15-04:00
-tags = ["emacs","hugo"]
-categories = [""]
-draft = false
-+++
++++ title = "Emacs + Hugo: Haciendo `hugo-blog-mode` (II)" date =
+2020-10-06T17:45:15-04:00 tags = ["emacs","hugo"] categories = [""]
+draft = false +++
+
 
 En el [artículo anterior]({{< relref "hugo-mode-emacs.md" >}}) (hace
 unos cuantos meses ya) estuve hablando sobre como comencé
@@ -76,9 +73,9 @@ Definidos nuestros puntos de entrada y las opciones configurables
 necesitamos englobar algunas funcionalidades comunes en funciones de
 soporte.
 
-La biblioteca de Emacs nos brinda funciones para ejecutar programas
-externos o comandos del shell. Aunque podríamos ejecutar los *scripts*
-de shell que tenemos definidos es mucho más interesante reproducir la
+Emacs nos brinda funciones para ejecutar programas externos o comandos
+del shell. La forma simple sería ejecutar los *scripts* de shell que
+tenemos definidos, pero es mucho más interesante reproducir la
 funcionalidad en Elisp. Veamos por ejemplo como podemos ejecutar
 `hugo` y capturar la salida en busca de mensajes de error.
 
@@ -141,8 +138,7 @@ Así mismo podemos definir el resto de las funciones necesarias.
 Con ayuda de las funciones auxiliares podemos desarrollar los comandos
 necesarios.  Es importante notar que todas las funciones están
 marcadas como `autoload` e `interactive` así estarán disponibles como
-comandos en el editor y sería más fácil distribuirlas en un paquete
-vía uno de los repositorios.
+comandos en el editor y sería más fácil distribuirlas en un paquete.
 
 ```elisp
 
@@ -189,5 +185,5 @@ vía uno de los repositorios.
     editor en distintas maneras, muchos incluso hacen cambios en la
     forma en que interactuamos con Emacs
 
-[^2]: Los comandos son funcionalidades específicas que no están
-    relacionadas con ningún modo en particular.
+[^2]: Los comandos son funcionalidades específicas que no tienen por
+    que estar relacionadas con ningún modo en particular.
