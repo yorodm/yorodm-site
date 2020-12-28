@@ -57,8 +57,8 @@ inputFd = open("foo.txt", O_RDONLY);
 outputFd = open("bar.txt", O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR);
 // Ignoremos por el momento el valor de BUF_SIZE y el tamaño de buf
 while ((numRead = read(inputFd, buf, BUF_SIZE)) > 0)
-        if (write(outputFd, buf, numRead) != numRead)
-            fatal("write() returned error or partial write occurred");
+    if (write(outputFd, buf, numRead) != numRead)
+        fatal("write() returned error or partial write occurred");
 ```
 
 O como decimos los usuarios de **Rust**
@@ -76,10 +76,21 @@ use libc::*;
 
 let input_fd = std::fs::File::open("foo.txt")
 let output_fd = std::fs::File::create("bar.txt")
-let mut num_read = unsafe {
-	read(input_fd.as_raw_fd(),buf.as_mut_ptr() as *mut c_void, BUF_SIZE as usize) as usize
-}
-while num_read > 0 {
+let mut read: usize = 0;
+let mut written: usize = 0;
+loop {
+	 read = unsafe {
+		read(input_fd.as_raw_fd(),buf.as_mut_ptr() as *mut c_void, BUF_SIZE as usize) as usize
+	}
+	if read < 0 {
+		break;
+	}
+	let written = unsafe {
+        libc::write(fd.as_raw_fd(), buf.as_mut_ptr() as *mut libc::c_void, nbytes) as usize
+    };
+	if written < read {
+		break
+	}
 
 }
 ```
@@ -88,7 +99,7 @@ Si hacemos un diagrama sencillo de como fluyen los datos en esta
 variante sería algo como esto
 
 ```
-          read      +------+   	write
+          read      +------+    write
       +------------>+buffer+------------+
       |             +------+            |
       |                                 V
