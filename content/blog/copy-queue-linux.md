@@ -31,7 +31,7 @@ En esta entrega hablaremos de:
 Para los que llevamos tiempo utilizando cualquier variante **\*nix**
 `cp` es uno de esos comandos que no hay por que mejorar, pero las
 alternativas que proponen los entornos de escritorio dejan mucho que
-desear a aquellos que llegan de entornos _más agradables_ (el lo
+desear a aquellos que llegan de entornos _más agradables_ (en lo
 personal estoy encantado con el gestor de ficheros de GNOME 3, pero
 cada cual con lo suyo)
 
