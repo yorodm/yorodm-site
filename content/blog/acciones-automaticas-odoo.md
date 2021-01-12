@@ -8,3 +8,5 @@ description = "Trabajando con ir.con y base.action_rule"
 +++
 
 # Acciones automáticas en Odoo
+
+Esto esto esto
