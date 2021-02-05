@@ -13,5 +13,5 @@ projects:
     url:  https://github.com/yorodm/awstail
     description: Query AWS Cloudwatch Logs from your terminal
   - name: golang-workshop
-    url:  https://github.com/yorodm/awstail
+    url:  https://github.com/yorodm/golang-workshop
     description: Aprenda Golang desde 0 hasta API
