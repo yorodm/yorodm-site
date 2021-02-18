@@ -85,7 +85,7 @@ La implementación de `Pipeline` es extremadamente corta.
 ```rust
 impl<T> Pipeline<T> {
     fn new() -> Pipeline<T> {
-        Pipe { v: Vec::new() }
+        Pipeline { v: Vec::new() }
     }
 
     fn add(&mut self, x: impl Step<Item = T> + 'static) {
