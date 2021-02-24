@@ -46,7 +46,7 @@ pub struct Multiplier {
 impl AsyncStep for Multiplier {
     type Item = u8;
     fn run(&self, it: u8) -> Output<Self::Item> {
-		Box::pin(futures::future::ready(Ok(self.value * it)))
+        Box::pin(futures::future::ready(Ok(self.value * it)))
     }
 }
 ```
@@ -70,10 +70,10 @@ Para retornar este tipo de valor podemos usar `Box::pin` y bloques
 
 ```rust
 fn run(&self, it: u8) -> Output<Self::Item> {
-	let x = Ok(self.value * it);
-	Box::pin(async move {
-		x
-	})
+    let x = Ok(self.value * it);
+    Box::pin(async move {
+        x
+    })
 }
 ```
 
@@ -84,7 +84,7 @@ Nuestra implementación de `Step` para `Pipeline` utilizaba un simple
 
 ```rust
 fn run(&self, it: T) -> StepResult<T> {
-	self.v.iter().fold(Ok(it), |acc, x| acc.and_then(|v| x.run(v)))
+    self.v.iter().fold(Ok(it), |acc, x| acc.and_then(|v| x.run(v)))
 }
 ```
 
@@ -116,16 +116,16 @@ use futures::stream::{self, StreamExt};
 
 impl<T> Pipeline<T> {
 
-	async fn run_stream(& self, val: T) -> StepResult<T> {
-		let v = &self.v;
-		let s = stream::iter(v).fold(Ok(val), |acc, x| async move {
-			match acc {
-				Err(e) => Err(e),
-					Ok(o) => x.run(o).await,
-				}
-			});
-		s.await
-	}
+    async fn run_stream(& self, val: T) -> StepResult<T> {
+        let v = &self.v;
+        let s = stream::iter(v).fold(Ok(val), |acc, x| async move {
+            match acc {
+                Err(e) => Err(e),
+                Ok(o) => x.run(o).await,
+            }
+        });
+        s.await
+    }
 
 }
 ```
@@ -145,8 +145,8 @@ use tokio;
 
 fn main() {
     let rt = tokio::runtime::Runtime::new().unwrap();
-	let mut p = Pipeline::new();
-	p.add(Multiplier { value: 2 });
+    let mut p = Pipeline::new();
+    p.add(Multiplier { value: 2 });
     p.add(Multiplier { value: 5 });
     rt.block_on(async move {
         println!("{:?}", p.run_stream(10).await);
