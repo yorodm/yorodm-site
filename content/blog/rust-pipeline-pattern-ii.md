@@ -11,7 +11,7 @@ Rust.
 
 Si recuerdan, la implementación se ejecutaba de forma secuencial lo
 que en el momento pudo parecer suficiente, pero si lo pensamos mejor
-nos damos cuanta que limita mucho la aplicabilidad del modelo. Una
+nos damos cuenta que limita mucho la aplicabilidad del modelo. Una
 mejor idea sería poder usar nuestros pipelines de forma _concurrente_.
 
 
