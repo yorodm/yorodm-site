@@ -31,7 +31,7 @@ Necesitamos 3 funcionalidades básicas para trabajar en nuestro blog.
 Con esto en mente podemos crear el esqueleto de las funciones
 
 ```elisp
-(defun hugo-blow-new (path)
+(defun hugo-blog-new (path)
 	"Create new content in PATH.")
 (defun hugo-blog-publish ()
 	"Generate the site and commit everything.")
