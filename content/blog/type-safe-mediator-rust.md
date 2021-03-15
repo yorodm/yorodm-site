@@ -6,7 +6,7 @@ tags: ["rust","patrones", "oop"]
 description: "Implementando patrones de diseño OOP en Rust"
 ---
 
-> **UPDATE 2021-03-15T22:46:50+02:00. Un lector (pues si, tengo
+>  **UPDATE 2021-03-15T22:46:50+02:00**. Un lector (pues si, tengo
 > lectores) me comentó sobre un error en `Mediator::send`. Cosas que
 > pasan cuando transcribes y experimentas desde el playground.
 
