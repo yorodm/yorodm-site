@@ -6,6 +6,10 @@ tags: ["rust","patrones", "oop"]
 description: "Implementando patrones de diseño OOP en Rust"
 ---
 
+> **UPDATE 2021-03-15T22:46:50+02:00. Un lector (pues si, tengo
+> lectores) me comentó sobre un error en `Mediator::send`. Cosas que
+> pasan cuando transcribes y experimentas desde el playground.
+
 ## Un Rustacean en tierras de Dotnet.
 
 Un amigo me hace una pregunta mientras conversábamos sobre las
@@ -146,7 +150,7 @@ impl Mediator {
     self.0.set::<R,Wrapper<R,T>>(Box::new(f));
   }
 
-  pub fn send<R: Request, T: 'static>(&mut self, r: &R) -> Option<T> {
+  pub fn send<R: Request, T: 'static>(&mut self, r: R) -> Option<T> {
     self.0.get_mut::<R,Wrapper<R,T>>().map(|h| h.handle(r))
   }
 }
@@ -165,7 +169,7 @@ inferencia de tipos de **Rust** (para escribir menos).
 fn main() {
     let mut m = Mediator::new();
     m.add_handler::<Ping,_,_>(PingHandler{});
-    let x: Option<String> = m.send::<Ping,_>(&Ping{});
+    let x: Option<String> = m.send::<Ping,_>(Ping{});
     println!("{:?}",x)
 }
 ```
