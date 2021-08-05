@@ -109,7 +109,7 @@ func main() {
 		return doSomeDataProcessing(cleaned)
 	})
 	createAuxiliaryResources();
-	_ := takeFinalSteps(value)
+	_ := takeFinalSteps(fut)
 }
 ```
 
