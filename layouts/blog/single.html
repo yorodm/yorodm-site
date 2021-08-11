@@ -5,9 +5,9 @@
 </time>
 {{ $taxo := "tags" }} <!-- Use the plural form here -->
 {{ with .Param $taxo }}
-  {{ range $index, $director := . }}
-    {{- if gt $index 0 }}, {{ end -}}
-     {{ with $.Site.GetPage (printf "/%s/%s" $taxo $director) -}}
+{{ range $index, $director := . }}
+{{- if gt $index 0 }}, {{ end -}}
+{{ with $.Site.GetPage (printf "/%s/%s" $taxo $director) -}}
 <a href="{{ .Permalink }}">{{ $director }}</a>
 {{- end -}}
 {{- end -}}
@@ -15,7 +15,21 @@
 {{ math.Round (div (countwords .Content) 220.0) }} minuto(s) de lectura.
 <br/><br/>
 {{ .Content }}
-{{ template "_internal/disqus.html" . }}
+{{ if isset .Params "series" }}
+      {{ $name := .Params.series }}
+          <h3>Parte de la serie
+            <a href="{{ `series/` | relLangURL }}{{ $name | urlize | lower }}">{{$name}}</a></h3>
+          <ul>
+            {{$series := where .Site.RegularPages ".Params.series" "eq" .Params.series }}
+            {{ range sort $series "Date" "asc"}}
+            <li>
+               <a href="{{ .Permalink }}">
+                 {{ .Title }}
+               </a>
+			</li>
+			{{ end }}
+          </ul>
+{{ else }}
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 {{ with $related }}
 <h3>Artículos relacionados</h3>
@@ -24,6 +38,7 @@
   <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
   {{ end }}
 </ul>
+{{ end }}
 <hr/>
 <script src="https://utteranc.es/client.js"
         repo="yorodm/yorodm-site"

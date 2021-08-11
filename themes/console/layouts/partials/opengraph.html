@@ -6,7 +6,7 @@
 {{- with .Params.image }}
 {{ $image := $.Resources.GetMatch . }}
 {{ with $image }}
-  {{ $thumb := .Resize "400x" }}
+{{ $thumb := .Resize "400x" }}
 <meta property="og:image" content="{{ $thumb.Permalink }}">
 {{ end }}
 {{ end }}
@@ -24,16 +24,6 @@
 {{- with .Params.videos }}
 {{- range . }}
 <meta property="og:video" content="{{ . | absURL }}" />
-{{ end }}{{ end }}
-
-{{- /* If it is part of a series, link to related articles */}}
-{{- $permalink := .Permalink }}
-{{- $siteSeries := .Site.Taxonomies.series }}{{ with .Params.series }}
-{{- range $name := . }}
-  {{- $series := index $siteSeries $name }}
-  {{- range $page := first 6 $series.Pages }}
-    {{- if ne $page.Permalink $permalink }}<meta property="og:see_also" content="{{ $page.Permalink }}" />{{ end }}
-  {{- end }}
 {{ end }}{{ end }}
 
 {{- if .IsPage }}

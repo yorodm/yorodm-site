@@ -17,8 +17,11 @@ pygmentsUseClasses=true
     name = "about/"
     url = "about/"
   [[params.navlinks]]
-  name = "blog/"
-  url = "blog/"
+    name = "blog/"
+    url = "blog/"
+  [[params.navlinks]]
+    name = "series/"
+    url = "series/"
 
 [related]
   includeNewer = true
@@ -27,8 +30,13 @@ pygmentsUseClasses=true
 
   [[related.indices]]
     name = "tags"
-    weight = 100
+    weight = 50
 
   [[related.indices]]
     name = "series"
     weight = 100
+
+[taxonomies]
+    categories = "categories"
+    tags = "tags"
+    series = "series"

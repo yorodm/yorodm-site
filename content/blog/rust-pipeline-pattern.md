@@ -3,6 +3,7 @@ title: "Pipelines en Rust (I)"
 date: 2020-12-24T13:27:39-05:00
 draft: false
 tags: ["rust","patrones"]
+series: "Pipelines en Rust"
 ---
 
 **Pipeline** es un patrón de diseño muy útil cuando tienes datos que

@@ -1,5 +1,5 @@
 ---
-title: "Mediator en Rust (I)"
+title: "Mediator en Rust"
 date: 2021-03-14T20:38:14+02:00
 draft: false
 tags: ["rust","patrones", "oop"]

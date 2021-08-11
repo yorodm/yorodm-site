@@ -3,6 +3,7 @@ title: "Pipelines en Rust (II)"
 date: 2021-02-22T16:03:13-05:00
 draft: false
 tags: ["rust","async","pipelines","patrones"]
+series: "Pipelines en Rust"
 ---
 
 En el [artículo anterior]({{<relref "./rust-pipeline-pattern.md">}})
