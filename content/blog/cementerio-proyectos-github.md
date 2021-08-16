@@ -6,6 +6,8 @@ description: Proyectos que han quedado abandonados
 tags:
 - gaveyard
 title: Cementerio Proyectos Github
+comment: true
+
 ---
 
 Siguiendo uno de los trending topics aquí en [DEV](http://dev.to) voy a publicar

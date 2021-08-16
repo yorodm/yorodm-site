@@ -7,6 +7,8 @@ tags:
 - concurrencia
 - patrones
 title: 'Desarrollo en Golang: Futures/Promises'
+comment: true
+
 ---
 
 Entre las cosas que pienso adicionar al [workshop de

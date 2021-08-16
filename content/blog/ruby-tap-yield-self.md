@@ -7,6 +7,8 @@ draft: true
 tags:
 - ruby
 title: 'Cosas de  Ruby: tap y yield_self'
+comment: true
+
 ---
 
 # Cosas de Ruby: tap y yield_self

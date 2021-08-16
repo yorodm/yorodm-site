@@ -6,6 +6,8 @@ tags:
 - golang
 - xml
 title: Parser SAX en Golang
+comment: true
+
 ---
 
 # Parser tipo SAX para Golang

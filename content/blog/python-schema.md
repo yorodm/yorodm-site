@@ -7,6 +7,8 @@ draft: true
 tags:
 - python
 title: Definiendo esquemas en Python
+comment: true
+
 ---
 
 Una de las características más interesantes de **Python 3** son las

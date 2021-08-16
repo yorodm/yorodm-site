@@ -7,6 +7,8 @@ tags:
 - linux
 - proxmox
 title: ZFS y el problema de la memoria
+comment: true
+
 ---
 
 # ZFS y el problema de la memoria

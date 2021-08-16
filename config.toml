@@ -1,5 +1,6 @@
 baseurl = "https://yorodm.is-a.dev"
-languageCode = "en-US"
+languageCode = "es-ES"
+defaultContentLanguage = "es"
 title = "/home/yorodm"
 theme = "hermit"
 pluralizeListTitles = false
@@ -12,9 +13,9 @@ enableEmoji = true
   author = "Yoandy Rodríguez Martínez"
 
 [blackfriday]
-  hrefTargetBlank = true
-  noreferrerLinks = true
-  nofollowLinks = true
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
 
 [params]
 
@@ -37,8 +38,7 @@ enableEmoji = true
 
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
   justifyContent = false  # Set "text-align: justify" to `.content`.
-
-  relatedPosts = true  # Add a related content section to all single posts page
+  relatedPosts = true
 
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
 
@@ -50,9 +50,7 @@ enableEmoji = true
     url = "http://github.com/yorodm"
 
 [menu]
-  # [[menu.main]]
-  #   name = "/about/"
-  #   url = "about/"
+
   [[menu.main]]
     name = "/blog/"
     url = "blog/"
@@ -74,6 +72,6 @@ enableEmoji = true
     weight = 100
 
 [taxonomies]
-    categories = "categories"
+#    categories = "categories"
     tags = "tags"
     series = "series"

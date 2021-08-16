@@ -8,6 +8,8 @@ tags:
 - patterns
 - storage-combinator
 title: Storage Combinator Python
+comment: true
+
 ---
 
 *Storage combinators* es una abstacción propuesta por [insertar

@@ -8,6 +8,8 @@ tags:
 - testing
 - python
 title: Pruebas funcionales con factory_boy y faker
+comment: true
+
 ---
 # Pruebas funcionales con factory_boy.
 

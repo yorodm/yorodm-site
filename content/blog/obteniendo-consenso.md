@@ -9,4 +9,6 @@ tags:
 - cluster
 - consenso
 title: Obteniendo consenso
+comment: true
+
 ---

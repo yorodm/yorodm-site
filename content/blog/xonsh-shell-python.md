@@ -7,6 +7,8 @@ draft: true
 tags:
 - ""
 title: Xonsh, shell para Python devs
+comment: true
+
 ---
 
 # Bla blah blah xonsh

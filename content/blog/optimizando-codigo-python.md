@@ -6,4 +6,6 @@ draft: true
 tags:
 - ""
 title: Optimizando Codigo Python
+comment: true
+
 ---

@@ -6,6 +6,8 @@ draft: false
 tags:
 - blog
 title: Comentarios vía disqus y felices fiestas
+comment: true
+
 ---
 
 # Comentarios vía Disqus y Felices Fiestas

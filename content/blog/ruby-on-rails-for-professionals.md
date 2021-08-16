@@ -9,6 +9,8 @@ tags:
 - ruby
 - rails
 title: 'Libro: Ruby on Rails Notes for Professionals'
+comment: true
+
 ---
 
 # Libro: Ruby on Rails for Professionals

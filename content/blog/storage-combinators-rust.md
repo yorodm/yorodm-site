@@ -5,6 +5,8 @@ tags:
 - rust
 - patrones
 title: Storage Combinators en Rust
+comment: true
+
 ---
 
 **Storage combinators** es el nombre de un patrón de diseño para

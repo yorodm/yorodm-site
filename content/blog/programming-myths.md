@@ -6,6 +6,8 @@ draft: false
 tags:
 - cultura
 title: Mitos que los programadores creemos
+comment: true
+
 ---
 
 Conversando con un amigo se nos ocurrió hacer una lista de mitos que

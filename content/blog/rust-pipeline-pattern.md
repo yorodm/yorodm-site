@@ -7,6 +7,8 @@ tags:
 - rust
 - patrones
 title: Pipelines en Rust (I)
+comment: true
+
 ---
 
 **Pipeline** es un patrón de diseño muy útil cuando tienes datos que

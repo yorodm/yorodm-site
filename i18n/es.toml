@@ -1,0 +1,38 @@
+# Translations for English
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# 404.html
+#
+[notFound]
+other = "Esta no es la página que estás buscando…"
+
+[home]
+other = "Home"
+
+[archives]
+other = "AArchivos"
+
+# posts/single.html
+#
+[seeAlso]
+other = "Relacionados…"
+
+[wordCount]
+other = "{{ .WordCount }} palabras"
+
+[tableOfContents]
+other = "Tabla de contenido"
+
+[newer]
+other = "Nuevo"
+
+[older]
+other = "Anterior"
+
+# partials/header.html
+#
+[menu]
+other = "Menu"
+
+[featuredImage]
+other = "Imágenes seleccionadas"

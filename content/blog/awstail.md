@@ -9,6 +9,8 @@ tags:
 - rust
 - cloudwatch logs
 title: 'awstail: AWS Logs a la vieja usanza'
+comment: true
+
 ---
 
 [awstail](https://github.com/yorodm/awstail) es una herramienta muy simple que cumple dos funciones:

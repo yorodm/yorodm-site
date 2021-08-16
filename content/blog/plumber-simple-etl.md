@@ -7,6 +7,8 @@ tags:
 - python
 - etl
 title: 'Plumber: ETL simple para Python'
+comment: true
+
 ---
 
 Implementando una feature para uno de los proyectos en los que trabajo terminé

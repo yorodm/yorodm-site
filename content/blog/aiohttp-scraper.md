@@ -10,6 +10,8 @@ tags:
 - asyncio
 - aiohttp
 title: Mejorando los scrapers con aiohttp
+comment: true
+
 ---
 
 ¿Adivinan que está mal con este código?

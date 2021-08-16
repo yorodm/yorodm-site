@@ -6,4 +6,6 @@ draft: true
 tags:
 - ""
 title: Aprendiendo programación reactiva con Lisp
+comment: true
+
 ---

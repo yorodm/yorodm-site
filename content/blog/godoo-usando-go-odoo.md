@@ -10,6 +10,8 @@ tags:
 - go
 - odoo
 title: Godoo
+comment: true
+
 ---
 
 

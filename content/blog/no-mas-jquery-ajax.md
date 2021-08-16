@@ -8,6 +8,8 @@ tags:
 - javascript
 - jquery
 title: No más $.ajax
+comment: true
+
 ---
 
 # No más $.ajax.

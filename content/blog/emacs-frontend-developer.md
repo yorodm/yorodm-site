@@ -11,6 +11,8 @@ tags:
 - templates
 - emacs
 title: Emacs para Frontend Developers
+comment: true
+
 ---
 # Emacs para Frontend Developers
 

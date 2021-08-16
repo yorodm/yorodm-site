@@ -8,6 +8,8 @@ tags:
 - java
 - microframeworks
 title: Microframeworks en Java
+comment: true
+
 ---
 
 # Microframeworks que deberías revisar.

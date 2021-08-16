@@ -6,6 +6,8 @@ draft: true
 tags:
 - python
 title: Python y los namespace packages
+comment: true
+
 ---
 
 # Python y los namespace packages

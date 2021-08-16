@@ -10,6 +10,8 @@ tags:
 - linux
 - archlinux
 title: Proxmox a Docker
+comment: true
+
 ---
 
 # Proxmox a Docker

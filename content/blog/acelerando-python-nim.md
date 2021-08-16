@@ -8,6 +8,8 @@ tags:
 - python
 - rendimiento
 title: Acelerando Python con Nim
+comment: true
+
 ---
 
 ¿Has escuchado sobre [Nim](https://nim-lang.org)? Es un lenguaje de propósito

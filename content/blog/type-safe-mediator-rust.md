@@ -7,6 +7,8 @@ tags:
 - patrones
 - oop
 title: Mediator en Rust
+comment: true
+
 ---
 
 >  **UPDATE 2021-03-15T22:46:50+02:00**. Un lector (pues si, tengo

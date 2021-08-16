@@ -6,6 +6,8 @@ tags:
 - serverless
 - yaml
 title: Buenas prácticas con Serverless
+comment: true
+
 ---
 
 # Algunas buenas practicas para Serverless Framework

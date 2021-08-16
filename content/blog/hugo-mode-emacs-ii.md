@@ -9,6 +9,8 @@ tags:
 - emacs
 - hugo
 title: 'Emacs + Hugo: Haciendo `hugo-blog-mode` (II)'
+comment: true
+
 ---
 
 

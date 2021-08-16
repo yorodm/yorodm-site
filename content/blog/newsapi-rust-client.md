@@ -7,6 +7,8 @@ tags:
 - async
 - newsapi
 title: 'Rust: Haciendo un cliente para NewsAPI (1)'
+comment: true
+
 ---
 
 Después de bastante tiempo sin escribir regreso con uno sobre desarrollo utilizando **Rust**.

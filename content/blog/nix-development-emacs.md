@@ -5,6 +5,7 @@ draft: true
 series:
 - Emacs, Nix y todo lo demás
 title: Desarrollando con Nix y Emacs
+comment: true
 ---
 
 Si eres usuario de [Visual Studio
@@ -32,16 +33,18 @@ crear un sistema que cumpla las siguientes características.
 ¿Pero no es esto lo mismo que nos promete **Docker?. En teoría si, en
 la práctica es una de esas cuestiones de *filosofía a* vs *filosofía
 b* que se escapa un poco del alcance de este artículo por lo que no
-voy a ponerme a debatir sobre ella
+voy a ponerme a debatir sobre ella. Solo basta decir que hay más
+diferencias que similitudes entre una *derivación* de **Nix** y un
+*Dockerfile**.
 
+## Instalando Nix.
 
-## Emacs + Nix = (❤)
-
-Instalar **Nix** no es una tarea para principiantes. El sitio
-oficicial incluye una [guía rápida](https://nixos.org/learn.html) y
-bastante documentación sobre como dar los primeros pasos, pero el
-contenido de la misma es bastante denso y no muy amigable para los
-recién llegados.
+Instalar **Nix** es bastante sencillo . El sitio oficicial incluye una
+[guía rápida](https://nixos.org/learn.html) y bastante documentación
+sobre como dar los primeros pasos. Aunque el esto de la guía es densa
+y plagada de términos técnicos que no son muy amigables para los
+recién llegados, existen otros recursos más accesibles (Dejo una lista
+en la sección de referencias)
 
 Por suerte, si usas [Archlinux](https://archlinux.org/) puedes seguir
 la guía en la [wiki](https://wiki.archlinux.org/title/Nix) y tener
@@ -57,9 +60,27 @@ $ nix-env -u
 
 ```
 
+ Ahora sólo nos queda instalar [direnv](https://direnv.net/) y empezar
+ la diversión.
+
+## Emacs + Nix = (❤)
+
+**Direnv** nos permite cargar el entorno necesario para usar **Nix**
+desde la terminal, *casualmente* hay un modo que lo hace funcionar en
+**Emacs**.
+
+```elisp
+(use-package direnv
+  :pin melpa
+  :ensure t)
+```
+
+
+
 ## Referencias
 
 
 * Nix Pills: https://nixos.org/nixos/nix-pills/
 * Nix Shorts: https://github.com/justinwoo/nix-shorts
 * NixOS: For Developers: https://myme.no/posts/2020-01-26-nixos-for-development.html
+* Nix Pills: https://nixos.org/guides/nix-pills/

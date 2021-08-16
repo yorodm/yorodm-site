@@ -6,6 +6,8 @@ tags:
 - linux
 - copyq
 title: Cola de Copia para Linux (I)
+comment: true
+
 ---
 
 ¡Ultimo artículo del 2020! Este ha sido un año muy turbulento en el

@@ -7,6 +7,8 @@ draft: false
 tags:
 - python
 title: Interfaces de comandos con Python
+comment: true
+
 ---
 
 # Interfaces de comandos sencillas con Python.

@@ -9,6 +9,8 @@ tags:
 - python
 - microservicios
 title: Desarrollando microservicios con Nameko
+comment: true
+
 ---
 
 # Desarrollando microservicios con Nameko

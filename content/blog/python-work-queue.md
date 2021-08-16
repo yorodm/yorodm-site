@@ -8,6 +8,8 @@ tags:
 - python
 - asyncio
 title: Cola de tareas en Python (I)
+comment: true
+
 ---
 
 Después de unos meses trabajando en **Go** se llegan a extrañar las

@@ -8,6 +8,8 @@ tags:
 - emacs
 - scrapper
 title: Scrapper para DEV desde Emacs
+comment: true
+
 ---
 
 # Scrapper para DEV desde Emacs.

@@ -6,6 +6,8 @@ draft: false
 tags:
 - blog
 title: De vuelta, cambios y anuncios
+comment: true
+
 ---
 
 # De vuelta, cambios y anuncios.

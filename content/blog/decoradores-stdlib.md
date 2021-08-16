@@ -9,6 +9,8 @@ tags:
 - decorators
 - builtins
 title: 'Python: Decoradores estándar y su uso'
+comment: true
+
 ---
 
 Entre las *baterías includas* de Python, vienen varios decoradores que nos

@@ -8,6 +8,8 @@ tags:
 - odoo
 - javascript
 title: Creando widgets con Odoo (parte 2)
+comment: true
+
 ---
 
 # Creando widgets con Odoo (parte 2)

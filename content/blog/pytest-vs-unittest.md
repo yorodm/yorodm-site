@@ -7,6 +7,8 @@ tags:
 - python
 - tdd
 title: Pytest vs Unittest
+comment: true
+
 ---
 
 Recientemente comencé un nuevo [proyecto personal](https://github.com/yorodm/kenobi) en Python

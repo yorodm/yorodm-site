@@ -8,6 +8,8 @@ tags:
 - python
 - asyncio
 title: Cola de tareas en Python (II)
+comment: true
+
 ---
 
 En el [post anterior]({{< relref "python-work-queue.md" >}}) hablé

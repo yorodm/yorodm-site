@@ -7,6 +7,8 @@ draft: false
 tags:
 - python
 title: Generadores y referencias
+comment: true
+
 ---
 
 # Generadores y referencias

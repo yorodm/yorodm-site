@@ -9,6 +9,8 @@ tags:
 - blog
 - herramientas
 title: Hugo y Emacs
+comment: true
+
 ---
 
 # Hugo, Emacs y el nuevo blog

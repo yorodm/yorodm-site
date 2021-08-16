@@ -9,6 +9,8 @@ tags:
 - pipelines
 - patrones
 title: Pipelines en Rust (II)
+comment: true
+
 ---
 
 En el [artículo anterior]({{<relref "./rust-pipeline-pattern.md">}})

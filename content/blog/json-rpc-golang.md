@@ -10,6 +10,8 @@ tags:
 - snippets
 - desafío
 title: Implementando JSON-RPC en Go
+comment: true
+
 ---
 
 # Implementando JSON-RPC en Go

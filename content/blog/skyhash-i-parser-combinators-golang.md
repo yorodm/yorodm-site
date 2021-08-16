@@ -8,6 +8,8 @@ tags:
 - skyhash
 - cs
 title: Skyhash (I) Introduccíon a Parser Combinators en Golang
+comment: true
+
 ---
 
 Hace unos días en mi *feed* de Reddit me apareció un anuncio sobre

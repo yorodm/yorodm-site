@@ -2,7 +2,11 @@
 author: Yoandy Rodriguez
 date: "2017-10-16"
 linktitle: Nuevo blog
+comment: true
+
 title: Nuevo blog
+comment: true
+
 ---
 
 

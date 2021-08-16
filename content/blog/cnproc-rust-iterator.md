@@ -5,6 +5,8 @@ tags:
 - rust
 - cnproc
 title: Iteradores en Rust
+comment: true
+
 ---
 
 [cnproc](https://github.com/yorodm/cnproc-rs) es un *crate* para

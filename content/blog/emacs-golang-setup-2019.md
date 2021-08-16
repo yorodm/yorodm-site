@@ -8,6 +8,8 @@ tags:
 - emacs
 - golang
 title: Emacs + Golang. Edición 2019
+comment: true
+
 ---
 
 [Go 1.12](https://blog.golang.org/go1.12) fue lanzado hace un

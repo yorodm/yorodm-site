@@ -10,6 +10,8 @@ tags:
 - emacs
 - hugo
 title: 'Emacs + Hugo: Haciendo `hugo-blog-mode` (I)'
+comment: true
+
 ---
 
 Este [blog](https://yorodm.github.io) es creado con

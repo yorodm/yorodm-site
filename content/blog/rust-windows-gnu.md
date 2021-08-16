@@ -8,6 +8,8 @@ tags:
 - rust
 - mingw
 title: 'Rust para usuarios de MS Windows: MinGW 64 (I)'
+comment: true
+
 ---
 
 Aunque no uso [Rust](https://rust-lang.org) como parte de mi trabajo

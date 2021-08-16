@@ -8,6 +8,8 @@ tags:
 - javascript
 - spa
 title: Odoo y Javascript (Parte 2)
+comment: true
+
 ---
 
 # Odoo y Javascript (Parte 2)

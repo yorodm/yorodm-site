@@ -7,6 +7,8 @@ tags:
 - go
 - golang
 title: Desarrollando con Emacs y Go
+comment: true
+
 ---
 
 # Desarrollando con Emacs y Go.

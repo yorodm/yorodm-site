@@ -8,6 +8,8 @@ tags:
 - python
 - odoo
 title: Acciones Automáticas en Odoo
+comment: true
+
 ---
 
 # Acciones automáticas en Odoo

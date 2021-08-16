@@ -7,4 +7,6 @@ tags:
 - rust
 - mingw64
 title: Rust para usuarios de Windows
+comment: true
+
 ---

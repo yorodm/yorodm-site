@@ -9,6 +9,8 @@ tags:
 - microservices
 - hostbuilder
 title: Microservicios en .NET Core 3.1
+comment: true
+
 ---
 
 La nueva versión LTS de .NET Core trae consigo muchas ventajas para el
