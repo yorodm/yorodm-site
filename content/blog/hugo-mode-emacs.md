@@ -5,6 +5,7 @@ tags = ["emacs","hugo"]
 categories = [""]
 draft = false
 description = "Creando un minor mode en Emacs para tu blog con Hugo"
+series = ["hugo-mode"]
 +++
 
 Este [blog](https://yorodm.github.io) es creado con

@@ -1,26 +1,63 @@
 baseurl = "https://yorodm.github.io/"
 languageCode = "en-US"
 title = "/home/yorodm"
-theme = "console"
+theme = "hermit"
 pluralizeListTitles = false
 pygmentsCodeFences=true
 pygmentsUseClasses=true
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+enableEmoji = true
+
+[author]
+  author = "Yoandy Rodríguez Martínez"
+
+[blackfriday]
+  hrefTargetBlank = true
+  noreferrerLinks = true
+  nofollowLinks = true
+
 [params]
 
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  # description = ""
+  # images = [""]
+  themeColor = "#494f5c"
+
+  homeSubtitle = "Develop | Test | Repeat"
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  # bgImg = ""  # Homepage background-image URL
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = "https://github.com/username/repository/commit/"
+
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+  justifyContent = false  # Set "text-align: justify" to `.content`.
+
+  relatedPosts = true  # Add a related content section to all single posts page
+
+  code_copy_button = true # Turn on/off the code-copy-button for code-fields
+
   [[params.social]]
-    name = "Twitter"
+    name = "twitter"
     url = "http://twitter.com/yorodm"
   [[params.social]]
-    name = "GitHub"
+    name = "github"
     url = "http://github.com/yorodm"
-  [[params.navlinks]]
-    name = "about/"
-    url = "about/"
-  [[params.navlinks]]
-    name = "blog/"
+
+[menu]
+  # [[menu.main]]
+  #   name = "/about/"
+  #   url = "about/"
+  [[menu.main]]
+    name = "/blog/"
     url = "blog/"
-  [[params.navlinks]]
-    name = "series/"
+  [[menu.main]]
+    name = "/series/"
     url = "series/"
 
 [related]
@@ -30,7 +67,7 @@ pygmentsUseClasses=true
 
   [[related.indices]]
     name = "tags"
-    weight = 50
+    weight = 100
 
   [[related.indices]]
     name = "series"

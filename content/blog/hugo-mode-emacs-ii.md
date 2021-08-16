@@ -4,6 +4,7 @@ date = 2020-10-06T17:45:15-04:00
 tags = ["emacs","hugo"]
 categories = [""]
 draft = false
+series = ["hugo-mode"]
 +++
 
 
