@@ -1,4 +1,4 @@
-baseurl = "https://yorodm.github.io/"
+baseurl = "https://yorodm.is-a.dev"
 languageCode = "en-US"
 title = "/home/yorodm"
 theme = "hermit"
