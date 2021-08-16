@@ -1,11 +1,15 @@
-+++
-title = "Python: Decoradores estándar y su uso"
-date = 2019-01-15T22:11:42-05:00
-tags = ["python", "decorators", "builtins"]
-categories = [""]
-draft = false
-description = "Decoradores de la biblioteca estándar de Python y cómo utilizarlos"
-+++
+---
+categories:
+- ""
+date: "2019-01-15T22:11:42-05:00"
+description: Decoradores de la biblioteca estándar de Python y cómo utilizarlos
+draft: false
+tags:
+- python
+- decorators
+- builtins
+title: 'Python: Decoradores estándar y su uso'
+---
 
 Entre las *baterías includas* de Python, vienen varios decoradores que nos
 facilitan la vida. Aquí una lista de algunos y breve explicación acerca de su

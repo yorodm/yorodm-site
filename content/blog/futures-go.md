@@ -1,9 +1,12 @@
 ---
-title: "Desarrollo en Golang: Futures/Promises"
-date: 2021-02-17T19:21:46-05:00
+date: "2021-02-17T19:21:46-05:00"
+description: Sacando ventaja de la concurrencia en Go
 draft: false
-tags: ["go","concurrencia", "patrones"]
-description: "Sacando ventaja de la concurrencia en Go"
+tags:
+- go
+- concurrencia
+- patrones
+title: 'Desarrollo en Golang: Futures/Promises'
 ---
 
 Entre las cosas que pienso adicionar al [workshop de

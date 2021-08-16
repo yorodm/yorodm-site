@@ -1,10 +1,12 @@
-+++
-title = "Comentarios vía disqus y felices fiestas"
-date = 2017-12-23T10:14:28-05:00
-tags = ["blog"]
-categories = [""]
-draft = false
-+++
+---
+categories:
+- ""
+date: "2017-12-23T10:14:28-05:00"
+draft: false
+tags:
+- blog
+title: Comentarios vía disqus y felices fiestas
+---
 
 # Comentarios vía Disqus y Felices Fiestas
 

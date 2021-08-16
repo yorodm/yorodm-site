@@ -1,8 +1,11 @@
 ---
-title: "Cola de Copia para Linux (I)"
-date: 2020-12-31T00:54:30-05:00
-tags: ["rust","linux","copyq"]
+date: "2020-12-31T00:54:30-05:00"
 draft: false
+tags:
+- rust
+- linux
+- copyq
+title: Cola de Copia para Linux (I)
 ---
 
 ¡Ultimo artículo del 2020! Este ha sido un año muy turbulento en el

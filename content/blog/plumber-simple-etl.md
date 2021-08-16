@@ -1,10 +1,13 @@
-+++
-title = "Plumber: ETL simple para Python"
-date = 2019-03-12T10:14:20-04:00
-tags = ["python","etl"]
-categories = [""]
-description = "Hacer tuberías ETL nunca fue menos complicado"
-+++
+---
+categories:
+- ""
+date: "2019-03-12T10:14:20-04:00"
+description: Hacer tuberías ETL nunca fue menos complicado
+tags:
+- python
+- etl
+title: 'Plumber: ETL simple para Python'
+---
 
 Implementando una feature para uno de los proyectos en los que trabajo terminé
 necesitando hacer el típico proceso ETL que tomara las cosas de una fuente X,

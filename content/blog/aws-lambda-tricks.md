@@ -1,9 +1,11 @@
 ---
-title: "Trucos con AWS Lambda. (Parte 1)"
-date: 2018-10-25T12:45:05-04:00
+date: "2018-10-25T12:45:05-04:00"
+description: Descubre como utilizar lambdas de forma ingeniosa.
 draft: false
-tags: ['aws','lambda']
-description: "Descubre como utilizar lambdas de forma ingeniosa."
+tags:
+- aws
+- lambda
+title: Trucos con AWS Lambda. (Parte 1)
 ---
 
 ## Truco 1: Recursividad asíncrona.

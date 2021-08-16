@@ -1,11 +1,13 @@
-+++
-title = "Cosas de  Ruby: tap y yield_self"
-date = 2018-04-27T13:01:29-04:00
-tags = ["ruby"]
-categories = [""]
-draft = true
-description = "Algunas de las características que hacen a Ruby atractivo"
-+++
+---
+categories:
+- ""
+date: "2018-04-27T13:01:29-04:00"
+description: Algunas de las características que hacen a Ruby atractivo
+draft: true
+tags:
+- ruby
+title: 'Cosas de  Ruby: tap y yield_self'
+---
 
 # Cosas de Ruby: tap y yield_self
 

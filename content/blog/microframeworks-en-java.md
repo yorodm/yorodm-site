@@ -1,11 +1,14 @@
-+++
-title = "Microframeworks en Java"
-date = 2017-12-04
-tags = ["java","microframeworks"]
-categories = [""]
-draft = false
-description = "Algunos microframeworks en Java que deberías seguir"
-+++
+---
+categories:
+- ""
+date: "2017-12-04"
+description: Algunos microframeworks en Java que deberías seguir
+draft: false
+tags:
+- java
+- microframeworks
+title: Microframeworks en Java
+---
 
 # Microframeworks que deberías revisar.
 

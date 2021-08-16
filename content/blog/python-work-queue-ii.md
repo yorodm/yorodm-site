@@ -1,11 +1,14 @@
-+++
-title = "Cola de tareas en Python (II)"
-date = 2019-11-05T13:05:06-05:00
-tags = ["python", "asyncio"]
-categories = [""]
-draft = true
-description = "Productores, consumidores, límites y AsyncIO"
-+++
+---
+categories:
+- ""
+date: "2019-11-05T13:05:06-05:00"
+description: Productores, consumidores, límites y AsyncIO
+draft: true
+tags:
+- python
+- asyncio
+title: Cola de tareas en Python (II)
+---
 
 En el [post anterior]({{< relref "python-work-queue.md" >}}) hablé
 sobre como hacer una cola de tareas sencilla (léase extremandamente

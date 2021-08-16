@@ -1,11 +1,15 @@
-+++
-title = "Emacs + Hugo: Haciendo `hugo-blog-mode` (II)"
-date = 2020-10-06T17:45:15-04:00
-tags = ["emacs","hugo"]
-categories = [""]
-draft = false
-series = ["hugo-mode"]
-+++
+---
+categories:
+- ""
+date: "2020-10-06T17:45:15-04:00"
+draft: false
+series:
+- hugo-mode
+tags:
+- emacs
+- hugo
+title: 'Emacs + Hugo: Haciendo `hugo-blog-mode` (II)'
+---
 
 
 En el [artículo anterior]({{< relref "hugo-mode-emacs.md" >}}) (hace

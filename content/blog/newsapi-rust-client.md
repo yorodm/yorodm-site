@@ -1,8 +1,12 @@
 ---
-title: "Rust: Haciendo un cliente para NewsAPI (1)"
-date: 2020-09-30T20:58:07-04:00
+date: "2020-09-30T20:58:07-04:00"
 draft: true
-tags: ["rust", "hyper", "async", "newsapi"]
+tags:
+- rust
+- hyper
+- async
+- newsapi
+title: 'Rust: Haciendo un cliente para NewsAPI (1)'
 ---
 
 Después de bastante tiempo sin escribir regreso con uno sobre desarrollo utilizando **Rust**.

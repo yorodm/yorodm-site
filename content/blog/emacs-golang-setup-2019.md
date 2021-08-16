@@ -1,11 +1,14 @@
-+++
-title = "Emacs + Golang. Edición 2019"
-date = 2019-03-25T15:34:27-04:00
-tags = ["emacs", "golang"]
-categories = [""]
-draft = false
-description = "Preparando Emacs para Go 1.13"
-+++
+---
+categories:
+- ""
+date: "2019-03-25T15:34:27-04:00"
+description: Preparando Emacs para Go 1.13
+draft: false
+tags:
+- emacs
+- golang
+title: Emacs + Golang. Edición 2019
+---
 
 [Go 1.12](https://blog.golang.org/go1.12) fue lanzado hace un
 mes y entre los cambios más significativos se encuentran varias mejoras

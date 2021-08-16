@@ -1,11 +1,14 @@
-+++
-title = "No más $.ajax"
-date = 2018-04-25T12:18:59-04:00
-tags = ["javascript","jquery"]
-categories = [""]
-draft = true
-description = "Migra tu código hacia Fetch API o Axios"
-+++
+---
+categories:
+- ""
+date: "2018-04-25T12:18:59-04:00"
+description: Migra tu código hacia Fetch API o Axios
+draft: true
+tags:
+- javascript
+- jquery
+title: No más $.ajax
+---
 
 # No más $.ajax.
 

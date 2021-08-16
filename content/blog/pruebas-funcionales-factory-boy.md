@@ -1,11 +1,14 @@
-+++
-title = "Pruebas funcionales con factory_boy y faker"
-date = 2017-12-13
-tags = ["testing","python"]
-categories = [""]
-draft = false
-description = "Mejorando el modo en que escribimos pruebas funcionales"
-+++
+---
+categories:
+- ""
+date: "2017-12-13"
+description: Mejorando el modo en que escribimos pruebas funcionales
+draft: false
+tags:
+- testing
+- python
+title: Pruebas funcionales con factory_boy y faker
+---
 # Pruebas funcionales con factory_boy.
 
 Una de las primeras cosas que aprendí cuando comencé a hacer pruebas funcionales

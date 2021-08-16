@@ -1,8 +1,10 @@
 ---
-title: "Desarrollando con Nix y Emacs"
-date: 2021-08-15T16:48:07+03:00
+comments: true
+date: "2021-08-15T16:48:07+03:00"
 draft: true
-series: ["Emacs, Nix y todo lo demás"]
+series:
+- Emacs, Nix y todo lo demás
+title: Desarrollando con Nix y Emacs
 ---
 
 Si eres usuario de [Visual Studio
@@ -27,6 +29,11 @@ crear un sistema que cumpla las siguientes características.
 3. Fiable: instalar o actualizar un paquete no puede hacer fallar la
    configuración existente.
 
+¿Pero no es esto lo mismo que nos promete **Docker?. En teoría si, en
+la práctica es una de esas cuestiones de *filosofía a* vs *filosofía
+b* que se escapa un poco del alcance de este artículo por lo que no
+voy a ponerme a debatir sobre ella
+
 
 ## Emacs + Nix = (❤)
 
@@ -49,3 +56,10 @@ $ nix-channel --update
 $ nix-env -u
 
 ```
+
+## Referencias
+
+
+* Nix Pills: https://nixos.org/nixos/nix-pills/
+* Nix Shorts: https://github.com/justinwoo/nix-shorts
+* NixOS: For Developers: https://myme.no/posts/2020-01-26-nixos-for-development.html

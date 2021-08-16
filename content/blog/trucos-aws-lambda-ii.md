@@ -1,11 +1,14 @@
-+++
-title = "Trucos Aws Lambda (parte 2)"
-date = 2018-11-18T12:39:59-05:00
-tags = ["aws","lambda"]
-categories = [""]
-draft = false
-description = "Más formas creativas de usar tus lambdas"
-+++
+---
+categories:
+- ""
+date: "2018-11-18T12:39:59-05:00"
+description: Más formas creativas de usar tus lambdas
+draft: false
+tags:
+- aws
+- lambda
+title: Trucos Aws Lambda (parte 2)
+---
 
 # Trucos con AWS Lambda (II).
 

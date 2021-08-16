@@ -1,10 +1,13 @@
-+++
-title = "Pytest vs Unittest"
-date = 2019-01-28T23:55:02-05:00
-tags = ["python","tdd"]
-categories = [""]
-draft = true
-+++
+---
+categories:
+- ""
+date: "2019-01-28T23:55:02-05:00"
+draft: true
+tags:
+- python
+- tdd
+title: Pytest vs Unittest
+---
 
 Recientemente comencé un nuevo [proyecto personal](https://github.com/yorodm/kenobi) en Python
 y me surgió la disyuntiva sobre que framework utilizar para mis pruebas unitarias.

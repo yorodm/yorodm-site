@@ -1,10 +1,12 @@
-+++
-title = "Cementerio Proyectos Github"
-date = 2018-08-20T10:50:39-04:00
-tags = ["gaveyard"]
-categories = [""]
-description = "Proyectos que han quedado abandonados"
-+++
+---
+categories:
+- ""
+date: "2018-08-20T10:50:39-04:00"
+description: Proyectos que han quedado abandonados
+tags:
+- gaveyard
+title: Cementerio Proyectos Github
+---
 
 Siguiendo uno de los trending topics aquí en [DEV](http://dev.to) voy a publicar
 mi propio listado de proyectos difuntos en [Github](http://github.com/yorodm).

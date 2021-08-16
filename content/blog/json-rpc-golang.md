@@ -1,11 +1,16 @@
-+++
-title = "Implementando JSON-RPC en Go"
-date = 2018-05-09T11:45:31-04:00
-tags = ["golang","jsonrpc", "snippets", "desafío"]
-categories = [""]
-draft = false
-description = "Implementando un cliente JSON RPC para Odoo en Golang"
-+++
+---
+categories:
+- ""
+date: "2018-05-09T11:45:31-04:00"
+description: Implementando un cliente JSON RPC para Odoo en Golang
+draft: false
+tags:
+- golang
+- jsonrpc
+- snippets
+- desafío
+title: Implementando JSON-RPC en Go
+---
 
 # Implementando JSON-RPC en Go
 

@@ -1,11 +1,14 @@
-+++
-title = "Emacs para desarrolladores de Python"
-date = 2018-04-22T14:24:52-04:00
-tags = ["python","emacs"]
-categories = [""]
-draft = true
-description = "Tres pasos simples para crear tu propio IDE"
-+++
+---
+categories:
+- ""
+date: "2018-04-22T14:24:52-04:00"
+description: Tres pasos simples para crear tu propio IDE
+draft: true
+tags:
+- python
+- emacs
+title: Emacs para desarrolladores de Python
+---
 
 # Emacs para desarrolladores de Python
 

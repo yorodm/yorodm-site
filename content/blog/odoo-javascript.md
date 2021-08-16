@@ -1,9 +1,13 @@
 ---
-title: "Odoo y Javascript (Parte 2)"
-date: 2018-03-25T21:09:19-04:00
+date: "2018-03-25T21:09:19-04:00"
+description: Desarrollando aplicaciones con Odoo y Javascript
 draft: true
-description: "Desarrollando aplicaciones con Odoo y Javascript"
-tags: ["odoo","python","javascript","spa"]
+tags:
+- odoo
+- python
+- javascript
+- spa
+title: Odoo y Javascript (Parte 2)
 ---
 
 # Odoo y Javascript (Parte 2)

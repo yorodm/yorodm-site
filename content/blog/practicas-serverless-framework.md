@@ -1,9 +1,11 @@
 ---
-title: "Buenas prácticas con Serverless"
-date: 2018-07-13T14:44:56-04:00
+date: "2018-07-13T14:44:56-04:00"
+description: Como hacer tus plantillas más resistentes a cambios
 draft: false
-tags: ["serverless", "yaml"]
-description: "Como hacer tus plantillas más resistentes a cambios"
+tags:
+- serverless
+- yaml
+title: Buenas prácticas con Serverless
 ---
 
 # Algunas buenas practicas para Serverless Framework

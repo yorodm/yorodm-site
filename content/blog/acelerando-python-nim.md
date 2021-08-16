@@ -1,10 +1,14 @@
-+++
-title = "Acelerando Python con Nim"
-date = 2019-01-22T15:46:33-05:00
-tags = ["nim","python","rendimiento"]
-categories = [""]
-draft = true
-+++
+---
+categories:
+- ""
+date: "2019-01-22T15:46:33-05:00"
+draft: true
+tags:
+- nim
+- python
+- rendimiento
+title: Acelerando Python con Nim
+---
 
 ¿Has escuchado sobre [Nim](https://nim-lang.org)? Es un lenguaje de propósito
 general con sintáxis parecida a Python lo cuál lo hace muy cómodo para los que

@@ -1,9 +1,12 @@
 ---
-title: "Mediator en Rust"
-date: 2021-03-14T20:38:14+02:00
+date: "2021-03-14T20:38:14+02:00"
+description: Implementando patrones de diseño OOP en Rust
 draft: false
-tags: ["rust","patrones", "oop"]
-description: "Implementando patrones de diseño OOP en Rust"
+tags:
+- rust
+- patrones
+- oop
+title: Mediator en Rust
 ---
 
 >  **UPDATE 2021-03-15T22:46:50+02:00**. Un lector (pues si, tengo

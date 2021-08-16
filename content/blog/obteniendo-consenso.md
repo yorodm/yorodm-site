@@ -1,8 +1,12 @@
-+++
-title = "Obteniendo consenso"
-date = 2017-12-02T15:07:22-05:00
-tags = ["distribuido","cluster","consenso"]
-categories = [""]
-draft = true
-description = "Desarrollando aplicaciones distribuidas"
-+++
+---
+categories:
+- ""
+date: "2017-12-02T15:07:22-05:00"
+description: Desarrollando aplicaciones distribuidas
+draft: true
+tags:
+- distribuido
+- cluster
+- consenso
+title: Obteniendo consenso
+---

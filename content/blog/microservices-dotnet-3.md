@@ -1,11 +1,15 @@
-+++
-title = "Microservicios en .NET Core 3.1"
-date = 2020-03-06T15:06:47-05:00
-tags = ["dotnet core", "microservices", "hostbuilder"]
-categories = [""]
-draft = false
-description= "Microservicios desde aplicaciones de consola"
-+++
+---
+categories:
+- ""
+date: "2020-03-06T15:06:47-05:00"
+description: Microservicios desde aplicaciones de consola
+draft: false
+tags:
+- dotnet core
+- microservices
+- hostbuilder
+title: Microservicios en .NET Core 3.1
+---
 
 La nueva versión LTS de .NET Core trae consigo muchas ventajas para el
 los desarrolladores de microservicios. Una de las más esperadas es la

@@ -1,11 +1,16 @@
-+++
-title = "Mejorando los scrapers con aiohttp"
-date = 2020-09-29T23:44:06-04:00
-tags = ["python","scraper","asyncio","aiohttp"]
-categories = [""]
-draft = true
-description = "Creando scrapers con aiohttp"
-+++
+---
+categories:
+- ""
+date: "2020-09-29T23:44:06-04:00"
+description: Creando scrapers con aiohttp
+draft: true
+tags:
+- python
+- scraper
+- asyncio
+- aiohttp
+title: Mejorando los scrapers con aiohttp
+---
 
 ¿Adivinan que está mal con este código?
 

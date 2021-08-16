@@ -1,9 +1,13 @@
 ---
-title: "Skyhash (I) Introduccíon a Parser Combinators en Golang"
-date: 2021-08-08T14:19:59+03:00
+date: "2021-08-08T14:19:59+03:00"
 draft: true
-tags: ["golang", "skyhash", "cs"]
-series: ["Skytable para Golang"]
+series:
+- Skytable para Golang
+tags:
+- golang
+- skyhash
+- cs
+title: Skyhash (I) Introduccíon a Parser Combinators en Golang
 ---
 
 Hace unos días en mi *feed* de Reddit me apareció un anuncio sobre

@@ -1,11 +1,15 @@
-+++
-title = "awstail: AWS Logs a la vieja usanza"
-date = 2020-01-20T11:50:59-05:00
-tags = ["aws","rust","cloudwatch logs"]
-categories = [""]
-draft = false
-description = "Herramienta sencilla para DevOps y desarrolladores"
-+++
+---
+categories:
+- ""
+date: "2020-01-20T11:50:59-05:00"
+description: Herramienta sencilla para DevOps y desarrolladores
+draft: false
+tags:
+- aws
+- rust
+- cloudwatch logs
+title: 'awstail: AWS Logs a la vieja usanza'
+---
 
 [awstail](https://github.com/yorodm/awstail) es una herramienta muy simple que cumple dos funciones:
 

@@ -1,11 +1,14 @@
-+++
-title = "Cola de tareas en Python (I)"
-date = 2019-11-04T13:01:46-05:00
-tags = ["python","asyncio"]
-categories = [""]
-draft = false
-description = "Utilizando la API de AsyncIO"
-+++
+---
+categories:
+- ""
+date: "2019-11-04T13:01:46-05:00"
+description: Utilizando la API de AsyncIO
+draft: false
+tags:
+- python
+- asyncio
+title: Cola de tareas en Python (I)
+---
 
 Después de unos meses trabajando en **Go** se llegan a extrañar las
 abstracciones del lenguaje para concurrencia. Hoy por ejemplo

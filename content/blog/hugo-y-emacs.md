@@ -1,11 +1,15 @@
-+++
-categories = ["hugo","emacs"]
-date = "2017-10-19T15:26:34-04:00"
-description = "Hugo, Emacs y el nuevo blog"
-tags = ["emacs","blog","herramientas"]
-title = "Hugo y Emacs"
-
-+++
+---
+categories:
+- hugo
+- emacs
+date: "2017-10-19T15:26:34-04:00"
+description: Hugo, Emacs y el nuevo blog
+tags:
+- emacs
+- blog
+- herramientas
+title: Hugo y Emacs
+---
 
 # Hugo, Emacs y el nuevo blog
 

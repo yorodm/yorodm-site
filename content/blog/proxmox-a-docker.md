@@ -1,11 +1,16 @@
-+++
-categories = ["devops"]
-date = "2017-11-29"
-description = "Comparativa entre Proxmox y Docker"
-tags = ["docker","proxmox","linux","archlinux"]
-title = "Proxmox a Docker"
-draft = true
-+++
+---
+categories:
+- devops
+date: "2017-11-29"
+description: Comparativa entre Proxmox y Docker
+draft: true
+tags:
+- docker
+- proxmox
+- linux
+- archlinux
+title: Proxmox a Docker
+---
 
 # Proxmox a Docker
 

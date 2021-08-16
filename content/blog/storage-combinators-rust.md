@@ -1,8 +1,10 @@
 ---
-title: "Storage Combinators en Rust"
-date: 2020-12-11T12:18:10-05:00
-tags: ["rust","patrones"]
+date: "2020-12-11T12:18:10-05:00"
 draft: true
+tags:
+- rust
+- patrones
+title: Storage Combinators en Rust
 ---
 
 **Storage combinators** es el nombre de un patrón de diseño para

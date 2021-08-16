@@ -1,11 +1,13 @@
-+++
-categories = []
-date = "2017-10-24T10:55:56-04:00"
-description = ""
-tags = ["zfs","linux","proxmox"]
-title = "ZFS y el problema de la memoria"
-
-+++
+---
+categories: []
+date: "2017-10-24T10:55:56-04:00"
+description: ""
+tags:
+- zfs
+- linux
+- proxmox
+title: ZFS y el problema de la memoria
+---
 
 # ZFS y el problema de la memoria
 

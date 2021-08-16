@@ -1,11 +1,14 @@
-+++
-title = "Creando widgets con Odoo (parte 2)"
-date = 2018-04-04T20:31:04-04:00
-tags = ["odoo","javascript"]
-categories = [""]
-draft = true
-description = "Creando widgets para el backend de Odoo"
-+++
+---
+categories:
+- ""
+date: "2018-04-04T20:31:04-04:00"
+description: Creando widgets para el backend de Odoo
+draft: true
+tags:
+- odoo
+- javascript
+title: Creando widgets con Odoo (parte 2)
+---
 
 # Creando widgets con Odoo (parte 2)
 

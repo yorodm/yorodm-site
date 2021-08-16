@@ -1,11 +1,15 @@
-+++
-title = "Pruebas unitarias (con Python)"
-date = 2017-12-18T07:07:18-05:00
-tags = ["python","testing","mock"]
-categories = [""]
-draft = true
-description = "Pruebas unitarias para pythoneros"
-+++
+---
+categories:
+- ""
+date: "2017-12-18T07:07:18-05:00"
+description: Pruebas unitarias para pythoneros
+draft: true
+tags:
+- python
+- testing
+- mock
+title: Pruebas unitarias (con Python)
+---
 
 # Pruebas unitarias (con Python)
 

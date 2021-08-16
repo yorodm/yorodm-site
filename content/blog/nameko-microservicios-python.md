@@ -1,11 +1,15 @@
-+++
-title = "Desarrollando microservicios con Nameko"
-date = 2017-11-09T11:13:09-05:00
-tags = ["nameko","python","microservicios"]
-categories = [""]
-draft = false
-description ="Microservicios robustos en Python"
-+++
+---
+categories:
+- ""
+date: "2017-11-09T11:13:09-05:00"
+description: Microservicios robustos en Python
+draft: false
+tags:
+- nameko
+- python
+- microservicios
+title: Desarrollando microservicios con Nameko
+---
 
 # Desarrollando microservicios con Nameko
 

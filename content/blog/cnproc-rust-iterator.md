@@ -1,8 +1,10 @@
 ---
-title: "Iteradores en Rust"
-date: 2020-10-07T08:28:24-04:00
+date: "2020-10-07T08:28:24-04:00"
 draft: true
-tags: ["rust","cnproc"]
+tags:
+- rust
+- cnproc
+title: Iteradores en Rust
 ---
 
 [cnproc](https://github.com/yorodm/cnproc-rs) es un *crate* para

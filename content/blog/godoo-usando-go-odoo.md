@@ -1,12 +1,16 @@
-+++
-title = "Godoo"
-description = "Accediendo a Odoo desde Go"
-date = 2017-11-03T16:18:39-04:00
-tags = ["golang","go","odoo"]
-categories = [""]
-draft = true
-author = "Yoandy Rodríguez Martínez"
-+++
+---
+author: Yoandy Rodríguez Martínez
+categories:
+- ""
+date: "2017-11-03T16:18:39-04:00"
+description: Accediendo a Odoo desde Go
+draft: true
+tags:
+- golang
+- go
+- odoo
+title: Godoo
+---
 
 
 # Godoo, accediendo a Odoo desde Go.

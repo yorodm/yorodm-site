@@ -1,8 +1,8 @@
 ---
-title: "Estructuras persistentes en Rust"
-date: 2018-10-04T13:42:12-04:00
-description: "Como implementar estructuras persistentes en Rust"
+date: "2018-10-04T13:42:12-04:00"
+description: Como implementar estructuras persistentes en Rust
 draft: true
+title: Estructuras persistentes en Rust
 ---
 
 # Estructuras persistentes en Rust

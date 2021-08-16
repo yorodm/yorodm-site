@@ -1,10 +1,12 @@
-+++
-title = "Mitos que los programadores creemos"
-date = 2020-09-07T12:17:58-04:00
-tags = ["cultura"]
-categories = [""]
-draft = false
-+++
+---
+categories:
+- ""
+date: "2020-09-07T12:17:58-04:00"
+draft: false
+tags:
+- cultura
+title: Mitos que los programadores creemos
+---
 
 Conversando con un amigo se nos ocurrió hacer una lista de mitos que
 nos encontramos en nuestra profesión.

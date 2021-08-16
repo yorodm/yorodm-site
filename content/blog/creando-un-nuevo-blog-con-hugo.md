@@ -1,6 +1,6 @@
 ---
-author: "Yoandy Rodriguez"
-date: 2017-10-16
+author: Yoandy Rodriguez
+date: "2017-10-16"
 linktitle: Nuevo blog
 title: Nuevo blog
 ---

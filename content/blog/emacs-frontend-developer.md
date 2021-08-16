@@ -1,11 +1,17 @@
-+++
-title = "Emacs para Frontend Developers"
-date = 2018-04-28T04:13:15-04:00
-tags = ["javascript","vue","angular","templates", "emacs"]
-categories = [""]
-draft = true
-description = "Preparando Emacs para desarrollar en la Web"
-+++
+---
+categories:
+- ""
+date: "2018-04-28T04:13:15-04:00"
+description: Preparando Emacs para desarrollar en la Web
+draft: true
+tags:
+- javascript
+- vue
+- angular
+- templates
+- emacs
+title: Emacs para Frontend Developers
+---
 # Emacs para Frontend Developers
 
 Como prometí hace algunos artículos atrás, voy a comenzar una serie acerca de

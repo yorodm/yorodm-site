@@ -1,11 +1,13 @@
-+++
-title = "Interfaces de comandos con Python"
-date = 2018-10-29T09:45:07-04:00
-tags = ["python"]
-categories = [""]
-draft = false
-description = "Creando tus propias herramientas de interfaces de comandos con Python"
-+++
+---
+categories:
+- ""
+date: "2018-10-29T09:45:07-04:00"
+description: Creando tus propias herramientas de interfaces de comandos con Python
+draft: false
+tags:
+- python
+title: Interfaces de comandos con Python
+---
 
 # Interfaces de comandos sencillas con Python.
 

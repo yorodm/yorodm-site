@@ -1,10 +1,12 @@
-+++
-title = "De vuelta, cambios y anuncios"
-date = 2018-04-11T14:56:57-04:00
-tags = ["blog"]
-categories = [""]
-draft = false
-+++
+---
+categories:
+- ""
+date: "2018-04-11T14:56:57-04:00"
+draft: false
+tags:
+- blog
+title: De vuelta, cambios y anuncios
+---
 
 # De vuelta, cambios y anuncios.
 

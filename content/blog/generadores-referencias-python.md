@@ -1,11 +1,13 @@
-+++
-title = "Generadores y referencias"
-date = 2017-12-15
-tags = ["python"]
-categories = [""]
-draft = false
-description = "Peligros del uso de referencias en los generadores"
-+++
+---
+categories:
+- ""
+date: "2017-12-15"
+description: Peligros del uso de referencias en los generadores
+draft: false
+tags:
+- python
+title: Generadores y referencias
+---
 
 # Generadores y referencias
 

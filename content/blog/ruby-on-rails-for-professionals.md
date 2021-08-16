@@ -1,11 +1,15 @@
-+++
-title = "Libro: Ruby on Rails Notes for Professionals"
-date = 2018-04-25T11:37:30-04:00
-tags = ["libros","ruby","rails"]
-categories = [""]
-draft = false
-description = "Ebook gratis sobre Ruby On Rails"
-+++
+---
+categories:
+- ""
+date: "2018-04-25T11:37:30-04:00"
+description: Ebook gratis sobre Ruby On Rails
+draft: false
+tags:
+- libros
+- ruby
+- rails
+title: 'Libro: Ruby on Rails Notes for Professionals'
+---
 
 # Libro: Ruby on Rails for Professionals
 

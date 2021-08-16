@@ -1,10 +1,12 @@
-+++
-title = "Python y los namespace packages"
-date = 2018-01-13T18:15:44-05:00
-tags = ["python"]
-categories = [""]
-draft = true
-+++
+---
+categories:
+- ""
+date: "2018-01-13T18:15:44-05:00"
+draft: true
+tags:
+- python
+title: Python y los namespace packages
+---
 
 # Python y los namespace packages
 

@@ -1,10 +1,14 @@
-+++
-title = "Storage Combinator Python"
-date = 2019-12-16T15:10:43-05:00
-tags = ["python","patterns","storage-combinator"]
-categories = [""]
-draft = true
-+++
+---
+categories:
+- ""
+date: "2019-12-16T15:10:43-05:00"
+draft: true
+tags:
+- python
+- patterns
+- storage-combinator
+title: Storage Combinator Python
+---
 
 *Storage combinators* es una abstacción propuesta por [insertar
 referencia]

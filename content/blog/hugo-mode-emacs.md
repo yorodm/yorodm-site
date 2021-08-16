@@ -1,12 +1,16 @@
-+++
-title = "Emacs + Hugo: Haciendo `hugo-blog-mode` (I)"
-date = 2019-07-07T11:03:33-04:00
-tags = ["emacs","hugo"]
-categories = [""]
-draft = false
-description = "Creando un minor mode en Emacs para tu blog con Hugo"
-series = ["hugo-mode"]
-+++
+---
+categories:
+- ""
+date: "2019-07-07T11:03:33-04:00"
+description: Creando un minor mode en Emacs para tu blog con Hugo
+draft: false
+series:
+- hugo-mode
+tags:
+- emacs
+- hugo
+title: 'Emacs + Hugo: Haciendo `hugo-blog-mode` (I)'
+---
 
 Este [blog](https://yorodm.github.io) es creado con
 [Hugo](https://gohugo.io) y publicado utilizando Github Pages. Cada

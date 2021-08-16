@@ -1,11 +1,13 @@
-+++
-categories = []
-date = "2017-10-26T15:04:13-04:00"
-description = ""
-tags = ["emacs","go","golang"]
-title = "Desarrollando con Emacs y Go"
-
-+++
+---
+categories: []
+date: "2017-10-26T15:04:13-04:00"
+description: ""
+tags:
+- emacs
+- go
+- golang
+title: Desarrollando con Emacs y Go
+---
 
 # Desarrollando con Emacs y Go.
 
