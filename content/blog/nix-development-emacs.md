@@ -1,7 +1,11 @@
 ---
 comments: true
-date: "2021-08-15T16:48:07+03:00"
-draft: true
+date: "2021-08-17T13:48:16+03:00"
+draft: false
+tags:
+- emacs
+- nix
+- direnv
 series:
 - Emacs, Nix y todo lo demás
 title: Desarrollando con Nix y Emacs
@@ -30,7 +34,7 @@ crear un sistema que cumpla las siguientes características.
 3. Fiable: instalar o actualizar un paquete no puede hacer fallar la
    configuración existente.
 
-¿Pero no es esto lo mismo que nos promete **Docker?. En teoría si, en
+¿Pero no es esto lo mismo que nos promete **Docker**?. En teoría si, en
 la práctica es una de esas cuestiones de *filosofía a* vs *filosofía
 b* que se escapa un poco del alcance de este artículo por lo que no
 voy a ponerme a debatir sobre ella. Solo basta decir que hay más
@@ -60,14 +64,97 @@ $ nix-env -u
 
 ```
 
- Ahora sólo nos queda instalar [direnv](https://direnv.net/) y empezar
- la diversión.
+Podemos iniciar un *shell* de **Nix** nuevo utilizando el comando
+`nix-shell`. Probemos arrancar un entorno con
+[Deno](https://deno.land/)
 
-## Emacs + Nix = (❤)
 
-**Direnv** nos permite cargar el entorno necesario para usar **Nix**
-desde la terminal, *casualmente* hay un modo que lo hace funcionar en
-**Emacs**.
+```shell
+$ nix-shell -p deno --pure
+```
+
+Con el comando anterior creamos un entorno temporal *puro* donde solo
+tenemos lo necesario para operar (las **coreutils**) y **Deno** con
+sus dependencias. Todo esto totalmente aislado del sistema (por eso la
+parte de *puro*).
+
+Ahora veamos cómo utilizar esto para hacer entornos de desarrollo.
+
+## Nix + Direnv + Emacs = (❤)
+
+Lo primero que necesitamos es una forma de indicarle al `nix-shell`
+que queremos tener en nuestro entorno. Para eso creamos el archivo
+`shell.nix` con el siguiente contenido
+
+```nix
+let
+  pkgs = import <nixpkgs> {};
+in
+pkgs.mkShell {
+  name ="deno-env";
+  buildInputs = with pkgs; [
+	deno
+	python38
+  ];
+}
+```
+
+Ahora solo necesitamos entrar al directorio donde se encuentra el
+archivo y ejecutar `nix-shell --pure` y tenemos **Deno** y **Python
+3.8** a nuestra disposición. ¿Qué tal si soy un fan de
+[Golang](https://golang.org)?
+
+```nix
+ pkgs = import <nixpkgs> {};
+in
+pkgs.mkShell {
+  name = "go-env";
+  buildInputs = with pkgs; [
+    go
+    gosec
+    golangci-lint
+    gopls
+    delve
+  ];
+
+  shellHook = ''
+    unset GOPATH GOROOT
+    export GO111MODULE=on
+  '';
+}
+```
+
+Bueno, se entiende la idea. Podemos buscar cualquier paquete necesario
+en [el repo oficial de Nixos](https://search.nixos.org/packages) o en
+[NUR](https://nur.nix-community.org/) e incluirlo en la lista de los
+*inputs* necesarios para la derivación. Incluso podemos declarar o
+sobrescribir variables de entorno.
+
+Nuestro segundo objetivo es evitar escribir `nix-shell` cada vez que
+queremos activar la configuración. [Direnv](https://direnv.net/) es
+una herramienta que nos permite cargar variables de entorno cada vez
+que entramos a un directorio o sus hijos.
+
+**Direnv** funciona mediante uso de *hooks* en el shell y requiere un
+archivo `.envrc` donde el usuario define las variables usando la
+sintaxis `VAR=VALUE`, aunque en nuestro caso haremos uso de la función
+estándar `use_nix`. Es tan sencillo como ejecutar los siguientes pasos
+
+```shell
+$  echo "use_nix" >> .envrc
+$  direnv allow .
+```
+
+La función `use_nix` ejecuta y obtiene el entorno de `nix-shell` y lo
+inyecta en el *shell* regular.
+
+> Si has prestado atención hasta ahora o simplemente experimentaste
+> con los *snippets* debes haber notado que al usar este método no
+> creas un entorno *puro*. Aunque parezca contraproducente, esto no
+> afecta el modo en que
+
+El paso final es integrar todo con **Emacs**.
+
 
 ```elisp
 (use-package direnv
@@ -75,10 +162,27 @@ desde la terminal, *casualmente* hay un modo que lo hace funcionar en
   :ensure t)
 ```
 
+El paquete **direnv** nos brinda un conjunto de funciones para
+utilizar **direnv** desde el editor. Utilizarlo es tan sencillo como
+navegar hasta el directorio usando *dired* y ejecutar *direnv-allow* o
+activar el modo menor *direnv-mode*.
 
+## The end?
+
+Con estos simples pasos podemos replicar (parcialmente) la
+funcionalidad de *Remote Containers*, creando entornos de desarrollo
+*ad-hoc* o incluso manteniendo versiones incompatibles de un
+compilador o SDK sin que esto afecte el resto del sistema.
+
+En próximas entregas veremos como expandir este *setup* y utilizar
+**Nix** para:
+
+1. Compilar y empaquetar nuestro proyecto.
+2. Crear imágenes de **Docker**.
+3. *Cross-compiling*.
+4. Otros trucos que todavía no se me han ocurrido.
 
 ## Referencias
-
 
 * Nix Pills: https://nixos.org/nixos/nix-pills/
 * Nix Shorts: https://github.com/justinwoo/nix-shorts
