@@ -39,14 +39,14 @@ la práctica es una de esas cuestiones de *filosofía a* vs *filosofía
 b* que se escapa un poco del alcance de este artículo por lo que no
 voy a ponerme a debatir sobre ella. Solo basta decir que hay más
 diferencias que similitudes entre una *derivación* de **Nix** y un
-*Dockerfile**.
+*Dockerfile*.
 
 ## Instalando Nix.
 
 Instalar **Nix** es bastante sencillo . El sitio oficicial incluye una
 [guía rápida](https://nixos.org/learn.html) y bastante documentación
-sobre como dar los primeros pasos. Aunque el esto de la guía es densa
-y plagada de términos técnicos que no son muy amigables para los
+sobre como dar los primeros pasos. Aunque el resto del sitio es denso
+y plagado de términos técnicos que no son muy amigables para los
 recién llegados, existen otros recursos más accesibles (Dejo una lista
 en la sección de referencias)
 
@@ -151,9 +151,10 @@ inyecta en el *shell* regular.
 > Si has prestado atención hasta ahora o simplemente experimentaste
 > con los *snippets* debes haber notado que al usar este método no
 > creas un entorno *puro*. Aunque parezca contraproducente, esto no
-> afecta el modo en que
+> afecta el modo en que la versión final del entorno de desarrollo
+> va a funcionar.
 
-El paso final es integrar todo con **Emacs**.
+Último paso es integrar todo con **Emacs**.
 
 
 ```elisp
