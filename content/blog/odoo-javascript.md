@@ -12,8 +12,6 @@ comment: true
 
 ---
 
-# Odoo y Javascript (Parte 2)
-
 ¡Saludos! Despúes de casi dos meses de inactividad y mucho **mucho** trabajo,
 decidí hacer una pausa para continuar con la serie de **Odoo** y **Javascript**.
 En el [post anterior de la serie]({{<ref "creando-widgets-odoo.md">}}) creamos

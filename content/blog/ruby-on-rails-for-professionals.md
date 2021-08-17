@@ -13,8 +13,6 @@ comment: true
 
 ---
 
-# Libro: Ruby on Rails for Professionals
-
 Un excelente libro producto del trabajo y conocimiento de cientos de usuarios de
 [Stack Overflow](http://www.stackoverflow.com). Como tantos otros libros disponibles en
 [GoalKicker](http://goalkicker.com ) este es gratis, bajo licencia Creative Commons

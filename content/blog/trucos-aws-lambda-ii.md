@@ -9,6 +9,8 @@ tags:
 - lambda
 title: Trucos Aws Lambda (parte 2)
 comment: true
+series:
+- Trucos con AWS Lambda
 
 ---
 

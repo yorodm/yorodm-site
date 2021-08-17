@@ -12,8 +12,6 @@ comment: true
 
 ---
 
-# Scrapper para DEV desde Emacs.
-
 Recién publiqué en
 [DEV](https://dev.to/yorodm/scrapping-dev-with-common-lisp-6j0) un artículo
 acerca de como hacer un [scrapper](https://es.wikipedia.org/wiki/Web_scraping)

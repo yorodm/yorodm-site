@@ -9,7 +9,8 @@ tags:
 - odoo
 title: Creando widgets para Odoo (Parte 1)
 comment: true
-
+series:
+- Creando widgets con Odoo
 ---
 
 # Creando widgets para Odoo (Parte 1).

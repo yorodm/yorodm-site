@@ -13,7 +13,6 @@ comment: true
 
 ---
 
-# Pruebas unitarias (con Python)
 
 Uno de los lectores del blog (vale, un amigo mío) me comentó como en los
 artículos suelo saltarme la parte de las pruebas unitarias (obviamente por

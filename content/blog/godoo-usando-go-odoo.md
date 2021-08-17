@@ -14,9 +14,6 @@ comment: true
 
 ---
 
-
-# Godoo, accediendo a Odoo desde Go.
-
 **Godoo** es mi nuevo y flamante proyecto disponible en
 [Github](http://github.com ). Consiste una biblioteca (y pronto herramienta de
 línea de comandos) para acceder a la interfaz **XMLRPC** de

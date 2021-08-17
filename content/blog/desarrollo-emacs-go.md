@@ -11,8 +11,6 @@ comment: true
 
 ---
 
-# Desarrollando con Emacs y Go.
-
 Tengo la muy sana costumbre de utilizar Emacs para todo lo que pueda (incluso
 revisar el correo) así que cuando me decidí a iniciar algunos proyectos en
 [Go](https://golang.org ) me alegró mucho que no existiera un IDE "oficial" para

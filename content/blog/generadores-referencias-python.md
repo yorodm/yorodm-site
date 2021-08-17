@@ -11,8 +11,6 @@ comment: true
 
 ---
 
-# Generadores y referencias
-
 Las referencias en **Python** son un tema que a menudo se pasa por alto, incluso
 por los que ya no somos [tan novatos](https://stackoverflow.com/questions/47552529/obscure-iterator-behavior-in-python).
 Hagamos un experimento, toma a diez desarrolladores que conozcas y

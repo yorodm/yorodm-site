@@ -7,7 +7,8 @@ tags:
 - lambda
 title: Trucos con AWS Lambda. (Parte 1)
 comment: true
-
+title:
+- Trucos con AWS Lambda
 ---
 
 ## Truco 1: Recursividad asíncrona.

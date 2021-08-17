@@ -13,8 +13,6 @@ comment: true
 
 ---
 
-# Hugo, Emacs y el nuevo blog
-
 Como comentaba en el primer post, decidí comenzar desde cero, aprovechando las
 bondades de [Github Pages](https://pages.github.com/ ) y
 [Hugo](http://gohugo.io) como generador de sitios estático. En lo que a

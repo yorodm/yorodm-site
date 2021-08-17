@@ -7,7 +7,6 @@ comment: true
 
 ---
 
-# Estructuras persistentes en Rust
 
 [Rust](https://www.rust-lang.org/) es uno de esos lenguajes que como
 [Go](https://golang.org) vienen llenos de nuevas características que una vez que

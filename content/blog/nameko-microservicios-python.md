@@ -13,8 +13,6 @@ comment: true
 
 ---
 
-# Desarrollando microservicios con Nameko
-
 [Nameko](http://github.com/nameko/nameko ) es una biblioteca para el desarrollo
 de microservicios en **Python**. A diferencia de otros **frameworks** como
 [Django](https://www.djangoproject.com), [Flask](http://flask.pocoo.org ) y

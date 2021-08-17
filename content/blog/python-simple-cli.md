@@ -11,8 +11,6 @@ comment: true
 
 ---
 
-# Interfaces de comandos sencillas con Python.
-
 Entre las muchas cosas para las que uso [Python](https://python.org) está
 escribir pequeñas herramientas de líneas de comandos que me ayudan en el día a
 día (especialmente cuando toca trabajar de **devops**). Aunque en la biblioteca

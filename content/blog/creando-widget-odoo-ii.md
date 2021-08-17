@@ -9,10 +9,10 @@ tags:
 - javascript
 title: Creando widgets con Odoo (parte 2)
 comment: true
-
+series:
+- Creando widgets con Odoo
 ---
 
-# Creando widgets con Odoo (parte 2)
 
 En el [post anterior]({{<ref "creando-widgets-odoo.md">}}) hablamos de utilizar
 **Javascript** para extender el cliente web (también conocido como *backend*) de

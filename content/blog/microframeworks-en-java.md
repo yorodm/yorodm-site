@@ -12,8 +12,6 @@ comment: true
 
 ---
 
-# Microframeworks que deberías revisar.
-
 ¡Hola! Después de unas semanas de inactivdad continúo con el tema de los
 frameworks para microservicios, ahora con **Java** que es otro de mis lengajes
 favoritos. Ya que todo el mundo conoce a los jugadores fuertes como

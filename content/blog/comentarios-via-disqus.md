@@ -10,8 +10,6 @@ comment: true
 
 ---
 
-# Comentarios vía Disqus y Felices Fiestas
-
 Ya están habilitados los comentarios en el blog. Un poco complicado porque ya
 saben, el bloqueo y etc. Espero tener más *feedback* ahora.
 

@@ -14,8 +14,6 @@ comment: true
 
 ---
 
-# Proxmox a Docker
-
 Recientemente conversaba con mis compañeros de trabajo acerca de la viabilidad
 de mover la mayoría de los servicios que ahora tenemos en
 [Proxmox](http://www.proxmox.com ) hacia [Docker](http://docker.com) exceptuando

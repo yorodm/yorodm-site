@@ -12,7 +12,7 @@ comment: true
 
 ---
 
-# No más $.ajax.
+## No más $.ajax.
 
 > Aclaración: Esto no es un artículo en contra de **jQuery**. Personalmente creo que
 > tenemos mucho que agradecerle a los desarrolladores de ese framework y que no

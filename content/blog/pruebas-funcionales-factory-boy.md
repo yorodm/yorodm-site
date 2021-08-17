@@ -11,7 +11,6 @@ title: Pruebas funcionales con factory_boy y faker
 comment: true
 
 ---
-# Pruebas funcionales con factory_boy.
 
 Una de las primeras cosas que aprendí cuando comencé a hacer pruebas funcionales
 (allá en los lejanos tiempos de la [universidad](http://www.uci.cu )) fue la

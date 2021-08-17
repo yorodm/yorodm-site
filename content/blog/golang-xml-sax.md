@@ -10,8 +10,6 @@ comment: true
 
 ---
 
-# Parser tipo SAX para Golang
-
 ## El problema
 
 Tratando de migrar unas cosas del trabajo a **Go** me tropecé con la necesidad de

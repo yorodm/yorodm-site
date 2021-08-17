@@ -11,8 +11,6 @@ comment: true
 
 ---
 
-# ZFS y el problema de la memoria
-
 **ZFS** lleva ya unos años en tierras de [Linux](http://www.open-zfs.org/) y cada
 vez que tengo un chance lo recomiendo a alguno de mis amigos *sysadmins* junto
 con un grupito de notas que he tomado acerca de como trabajar con el

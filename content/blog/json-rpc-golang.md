@@ -14,8 +14,6 @@ comment: true
 
 ---
 
-# Implementando JSON-RPC en Go
-
 **JSON-RPC** es mi método favorito para comunicarme con
 [Odoo](http://www.odoo.com ) desde el "exterior", en estos días estaba
 experimentando para enviar información desde un servicio desarrollado en

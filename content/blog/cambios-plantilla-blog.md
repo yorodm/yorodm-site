@@ -10,8 +10,6 @@ comment: true
 
 ---
 
-# De vuelta, cambios y anuncios.
-
 Despúes de casi 3 meses sin actualizar el blog (muuuuuuucho trabajo) estoy de
 vuelta con nuevos cambios para la plantilla (ahora el RSS muestra el contenido
 completo) y sindicaciones para [dev](https://dev.to/yorodm ) y pronto en

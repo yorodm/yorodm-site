@@ -10,8 +10,6 @@ comment: true
 
 ---
 
-# Algunas buenas practicas para Serverless Framework
-
 Aunque llevo poco tiempo utilizando [Serverless](http://serverless.com ) he
 intentado ir escribiendo un conjunto de prácticas para escribir plantillas.
 Las comparto aquí para los que como yo están empezando.

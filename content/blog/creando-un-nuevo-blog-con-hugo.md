@@ -10,7 +10,7 @@ comment: true
 ---
 
 
-### **¡Hola!**
+## **¡Hola!**
 
 ¡Hola! Bienvenidos a mi más reciente (esperemos que último) intento de crear (y
 actualizar regularmente) un blog. En esta ocasión decidí alejarme
