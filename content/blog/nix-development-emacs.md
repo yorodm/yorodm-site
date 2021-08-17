@@ -16,9 +16,9 @@ Si eres usuario de [Visual Studio
 Code](https://code.visualstudio.com/) es muy probable que hayas
 utilizado Remote Containers y [Docker](https://docker.com) para
 desarrollar o simplemente probar algún nuevo lenguaje/tecnología sin
-tener que modificar nuestro sistema. Aunque la idea de usar de usar
-entornos aislados para desarrollar no es nueva (los desarrolladores de
-Python conocen [varias](https://virtualenv.pypa.io/en/latest/)
+tener que modificar nuestro sistema. Aunque la idea de entornos
+aislados para desarrollar no es nueva (los desarrolladores de Python
+conocen [varias](https://virtualenv.pypa.io/en/latest/)
 [alternativas](https://docs.python.org/3/library/venv.html))
 
 
@@ -105,6 +105,7 @@ archivo y ejecutar `nix-shell --pure` y tenemos **Deno** y **Python
 [Golang](https://golang.org)?
 
 ```nix
+let
  pkgs = import <nixpkgs> {};
 in
 pkgs.mkShell {
