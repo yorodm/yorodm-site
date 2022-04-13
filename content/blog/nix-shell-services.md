@@ -25,20 +25,21 @@ otra alternativa.
 
 ## Creando `shellHooks` para nuestro entorno.
 
-Buscando en la documentacíon de `Nix` podemos ver lo siguiente:
+Buscando en la documentación de `Nix` podemos ver lo siguiente:
 
 > Si una derivación `mkShell` define la variable especial `shellHooks`
 > el contenido de esta será ejecutado despúes de `$stdenv/setup`
 
-Traduciendo: podemos crear un script arbitrario que se va a aplicar
-cada vez que instanciemos la derivación.
+Traduciendo: es posible inyectar un script arbitrario que se ejcuta
+con cada instancia de la derivación
 
 Esto nos abre la puerta a otro conjunto de posibilidades.
 
 
 ## Manos a la obra
 
-Ahora que sabemos que podemos inyectar nuestro propio script dentro del `shell.nix` pongamos manos a la obra. Los objetivos son:
+Ahora que sabemos que podemos alterar el funcionamiento del
+`shell.nix` pongamos manos a la obra. Los objetivos son:
 
 1. Configurar el servidor el arranque del servidor `PostgreSQL`.
 2. Crear un usuario y contraseña para el entorno de desarrollo.
