@@ -16,7 +16,7 @@ Justo cuando pensaba que todo iba de maravilla se me ocurrió la idea
 de probar
 [Easypodcasts](https://github.com/easypodcasts/easy_podcasts) en modo
 desarollador y de paso refrescar un poco de `Elixir`. `Easypodcasts`
-está desarrollado utilizando [Phoenix
+es un proyecto basado en [Phoenix
 LiveView](https://github.com/phoenixframework/phoenix_live_view) y
 entre otras cosas necesita `PostgreSQL` como fuente de datos. En el
 pasado (léase antes de usar `Nix`) esto lo habría resuelto usando un
