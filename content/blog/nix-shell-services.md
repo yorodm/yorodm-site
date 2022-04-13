@@ -9,8 +9,8 @@ tags:
 ---
 
 En el [post anterior]({{<ref "nix-development-emacs.md">}}) tocaba el
-tema de crear entornos de desarrollo reproduciles con `Nix` e incluso
-dejé algunos ejemplos de configuraciones para algunos lenguajes.
+tema de crear entornos de desarrollo reproducibles con `Nix` e incluso
+dejé algunos casos de uso para lenguajes en específico.
 
 Justo cuando pensaba que todo iba de maravilla se me ocurrió la idea
 de probar
